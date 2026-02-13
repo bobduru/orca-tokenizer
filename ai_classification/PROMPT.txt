@@ -1,0 +1,115 @@
+You are annotating orca calls from spectrogram images.
+
+- Calls are divided into **Parts**, written in parentheses.
+- Each parenthesis represents one continuous part.
+- Tokens inside a parenthesis describe that part.
+- If a part contains subdivisions, they are separated by commas.
+- Always start with a type token when the part is not tonal (`BB`, `PULSED`, or `GAP`).
+- For tonal parts, no type token is required.
+
+## Vocabulary Tokens
+
+### 1. Type Tokens
+
+Used to describe the production type of a part.
+
+- `BB` — Broadband signal. Energy is spread across frequencies without clear harmonic bands. Appears as a smeared or noisy region on the spectrogram.
+- `PULSED` — Pulsed signal where individual pulses or vertical lines are visible. Harmonic structure is not clearly tonal.
+- `GAP` — Silence or absence of signal.
+- `Tonal` — Default case. Do not include a token for tonal signals.
+
+---
+
+### 2. Length Tokens
+
+- `SHORT` — Segment shorter than **0.2 seconds**.
+
+(No long token for now.)
+
+---
+
+### 3. Contour Tokens
+
+Used only for tonal harmonic signals (not for BB, PULSED, or GAP).
+
+- `ASC` — Frequency contour clearly increases over time.
+- `DESC` — Frequency contour clearly decreases over time.
+- `FLAT` — Frequency contour remains approximately constant.
+- `PEAK` — A clear local maximum (ascending followed by descending).
+- `DIP` — A clear local minimum (descending followed by ascending).
+- `SQUIGGLE` — Multiple successive ups and downs (series of peaks and dips). If the overall trend is rising or falling, combine with `ASC` or `DESC`.
+- `UPSWEEP` — Short, rapid upward movement, typically at transitions (e.g., BB → tonal). Avoid using unless clearly distinct.
+- `DOWNSWEEP` — Short, rapid downward movement with a curved or parabolic descent, often at the end of flat segments.
+
+---
+
+### 4. Speed Tokens
+
+Used only with `ASC` or `DESC`.
+
+- `FAST` — Rapid change in frequency.
+- `SLOW` — Gradual change in frequency.
+
+---
+
+### 5. SBI Tokens (Side Band Interval)
+
+Describe harmonic spacing in tonal signals.
+
+- `SBI_TIGHT` — Harmonic bands are visually close together (approximately < 400 Hz spacing).
+- `SBI_WIDE` — Harmonic bands are widely spaced (approximately > 1500 Hz spacing), often only 2–3 bands visible.
+- `SBI_INC` — Harmonic spacing clearly increases over time.
+- `SBI_DEC` — Harmonic spacing clearly decreases over time.
+
+Use only when the effect is clearly visible and exaggerated.
+
+---
+
+### 6. Peak Modifiers
+
+Used only together with `PEAK`.
+
+- `LEFT` — Peak is asymmetric, leaning toward the left.
+- `RIGHT` — Peak is asymmetric, leaning toward the right.
+- `LARGE` — Peak spans a significant portion of the call.
+- `HIGH` — Peak reaches an extreme frequency relative to the rest of the call.
+
+Most peaks are small; only use modifiers when clearly justified.
+
+---
+
+### 7. Rare Tokens
+
+- `BIPHO` — Biphonation. Harmonic stack present with a clearly overlapping second tonal component.
+- `SINGLE_TONE` — Do not use for now.
+
+---
+
+# Known Call types
+{{dict}}
+
+# Instructions
+
+1. First determine the **type** of the part:
+    - `BB` for broadband noise-like signals,
+    - `PULSED` when vertical pulse structure is visible,
+    - `GAP` for silence,
+    - otherwise assume tonal (do not write a token).
+2. If the part duration is shorter than 0.2 seconds, add `SHORT`.
+3. For tonal parts only, describe the frequency contour using:
+    - `ASC`, `DESC`, or `FLAT`.
+    - Use `PEAK` or `DIP` when clear local extrema are present.
+    - Use `SQUIGGLE` for repeated oscillations.
+    - Use `UPSWEEP` or `DOWNSWEEP` only when short and clearly distinct.
+4. Use `FAST` or `SLOW` only with `ASC` or `DESC`.
+5. Add SBI tokens only when harmonic spacing is clearly tight, wide, increasing, or decreasing.
+6. Use peak modifiers (`LEFT`, `RIGHT`, `LARGE`, `HIGH`) only when the peak is clearly asymmetric or unusually prominent.
+7. Use `BIPHO` only when a second tonal component clearly overlaps the main harmonic stack.
+
+Look at this spectrogram and give me you best query for it, and what you think it could be considering the vocabulary. Prefer simple and clear descriptions, only using tokens.
+
+Return:
+1) A single line with the Parts annotation using ONLY tokens in parentheses, e.g. "(BB) (ASC FAST)".
+2) A single line "PREDICT: <CallID>" where <CallID> is the closest match among the provided templates.
+
+
