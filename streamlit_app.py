@@ -36,9 +36,9 @@ st.markdown("---")
 # Global controls
 col1, col2 = st.columns(2)
 with col1:
-    show_details = st.toggle("Show Detailed Part Descriptions", value=True)
+    show_details = st.toggle("Show Detailed Part Descriptions", value=False)
 with col2:
-    show_online = st.toggle("Show Online Examples", value=False)
+    show_online = st.toggle("Show Online Examples", value=True)
     st.session_state.show_online_global = show_online
 
 # Grid settings
