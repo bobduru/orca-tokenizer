@@ -1,0 +1,78 @@
+{
+  "filename": "N25-G1-2",
+  "general_notes": "VERY FAINT",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.109533\t0.109533\tNOTE: Very noisy, Pretty hard to tell PRR for P3, hard to tell if there's a P4\n0.256620\t0.447520\tP1: TIGHT UP\n0.447520\t1.004573\tBIPHO: FLAT\n0.447520\t1.004573\tP2: DOWN SLOW SPACED\n1.004573\t1.226769\tP3: DOWN BLUR, FLAT BLUR\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.26921,
+          "freq_hz": 579.653
+        },
+        {
+          "time_s": 0.393929,
+          "freq_hz": 632.3487
+        }
+      ],
+      "audacity_label": {
+        "start": 0.25662,
+        "end": 0.44752,
+        "note": "P1: TIGHT UP"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.448351,
+          "freq_hz": 2028.7855
+        },
+        {
+          "time_s": 1.022055,
+          "freq_hz": 1765.3069
+        }
+      ],
+      "audacity_label": {
+        "start": 0.44752,
+        "end": 1.004573,
+        "note": "P2: DOWN SLOW SPACED"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 1.024323,
+          "freq_hz": 1686.2633
+        },
+        {
+          "time_s": 1.049267,
+          "freq_hz": 1027.5667
+        },
+        {
+          "time_s": 1.1309,
+          "freq_hz": 579.653
+        },
+        {
+          "time_s": 1.187591,
+          "freq_hz": 632.3487
+        },
+        {
+          "time_s": 1.22,
+          "freq_hz": 803.974
+        }
+      ],
+      "audacity_label": {
+        "start": 1.004573,
+        "end": 1.226769,
+        "note": "P3: DOWN BLUR, FLAT BLUR"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

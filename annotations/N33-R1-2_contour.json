@@ -1,0 +1,106 @@
+{
+  "filename": "N33-R1-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.334451\t0.623612\tP1: VERTICAL\n0.721160\t1.055611\tP2: SQUIGGLE NORMAL\n0.811741\t0.811741\tmax\n0.877934\t1.369159\tBIPHO: FLAT\n0.912773\t0.912773\tmin\n1.013805\t1.013805\tmax\n1.055611\t1.445804\tP3: UP NORMAL, UP SPACED\n1.097418\t1.097418\tmin\n1.445804\t1.487611\tP4: UP SPACED SHORT FAST\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 0.34,
+          "freq_hz": 311.127
+        },
+        {
+          "time_s": 0.48,
+          "freq_hz": 349.228
+        },
+        {
+          "time_s": 0.62236,
+          "freq_hz": 450.0648
+        }
+      ],
+      "audacity_label": {
+        "start": 0.334451,
+        "end": 0.623612,
+        "note": "P1: VERTICAL"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.700158,
+          "freq_hz": 1826.7337
+        },
+        {
+          "time_s": 0.801006,
+          "freq_hz": 1906.1569
+        },
+        {
+          "time_s": 0.861516,
+          "freq_hz": 767.7577
+        },
+        {
+          "time_s": 0.959483,
+          "freq_hz": 767.7577
+        },
+        {
+          "time_s": 0.99406,
+          "freq_hz": 1058.9761
+        },
+        {
+          "time_s": 1.019992,
+          "freq_hz": 1032.5017
+        },
+        {
+          "time_s": 1.043043,
+          "freq_hz": 847.1809
+        }
+      ],
+      "audacity_label": {
+        "start": 0.72116,
+        "end": 1.055611,
+        "note": "P2: SQUIGGLE NORMAL"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 1.048806,
+          "freq_hz": 847.1809
+        },
+        {
+          "time_s": 1.100671,
+          "freq_hz": 847.1809
+        },
+        {
+          "time_s": 1.184232,
+          "freq_hz": 1058.9761
+        },
+        {
+          "time_s": 1.264911,
+          "freq_hz": 1932.6314
+        },
+        {
+          "time_s": 1.316776,
+          "freq_hz": 2197.3754
+        },
+        {
+          "time_s": 1.466608,
+          "freq_hz": 2529.3949
+        }
+      ],
+      "audacity_label": {
+        "start": 1.055611,
+        "end": 1.445804,
+        "note": "P3: UP NORMAL, UP SPACED"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

@@ -1,0 +1,113 @@
+{
+  "filename": "N25-I11-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.095717\t0.095717\tNOTE: Much better match to ford catalogue\n0.206872\t0.327290\tP1: BLUR\n0.327290\t0.747210\tBIPHO: FLAT | DOWN SLOW\n0.327290\t0.747210\tP2: DOWN SHORT FAST SPACED, DOWN SPACED\n0.747210\t0.886153\tP3: DOWN T SHORT FAST, FLAT\n0.886153\t1.256671\tP4: DOWN, FLAT\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "NOISY",
+      "points": [
+        {
+          "time_s": 0.218828,
+          "freq_hz": 450.0648
+        },
+        {
+          "time_s": 0.297086,
+          "freq_hz": 450.0648
+        }
+      ],
+      "audacity_label": {
+        "start": 0.206872,
+        "end": 0.32729,
+        "note": "P1: BLUR"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.325346,
+          "freq_hz": 2620.9658
+        },
+        {
+          "time_s": 0.366649,
+          "freq_hz": 2117.9522
+        },
+        {
+          "time_s": 0.416647,
+          "freq_hz": 1985.5802
+        },
+        {
+          "time_s": 0.462298,
+          "freq_hz": 2117.9522
+        },
+        {
+          "time_s": 0.723158,
+          "freq_hz": 1720.8361
+        }
+      ],
+      "audacity_label": {
+        "start": 0.32729,
+        "end": 0.74721,
+        "note": "P2: DOWN SHORT FAST SPACED, DOWN SPACED"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.75,
+          "freq_hz": 698.394
+        },
+        {
+          "time_s": 0.781851,
+          "freq_hz": 503.0136
+        },
+        {
+          "time_s": 0.834023,
+          "freq_hz": 529.488
+        },
+        {
+          "time_s": 0.864457,
+          "freq_hz": 503.0136
+        }
+      ],
+      "audacity_label": {
+        "start": 0.74721,
+        "end": 0.886153,
+        "note": "P3: DOWN T SHORT FAST, FLAT"
+      }
+    },
+    {
+      "label": "P4",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.873152,
+          "freq_hz": 476.5392
+        },
+        {
+          "time_s": 0.912281,
+          "freq_hz": 370.6416
+        },
+        {
+          "time_s": 1.13,
+          "freq_hz": 336.036
+        },
+        {
+          "time_s": 1.25,
+          "freq_hz": 336.036
+        }
+      ],
+      "audacity_label": {
+        "start": 0.886153,
+        "end": 1.256671,
+        "note": "P4: DOWN, FLAT"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

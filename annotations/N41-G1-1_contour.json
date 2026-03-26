@@ -1,0 +1,69 @@
+{
+  "filename": "N41-G1-1",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.086787,
+          "freq_hz": 835.1482
+        },
+        {
+          "time_s": 0.27898,
+          "freq_hz": 652.4595
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 0.398566,
+          "freq_hz": 1966.6897
+        },
+        {
+          "time_s": 0.442699,
+          "freq_hz": 1966.6897
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.539507,
+          "freq_hz": 632.3487
+        },
+        {
+          "time_s": 0.580793,
+          "freq_hz": 658.6966
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P4",
+      "notes": "unsure",
+      "points": [
+        {
+          "time_s": 0.697532,
+          "freq_hz": 2065.0034
+        },
+        {
+          "time_s": 0.874064,
+          "freq_hz": 2065.0034
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

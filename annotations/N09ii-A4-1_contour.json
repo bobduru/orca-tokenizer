@@ -1,0 +1,97 @@
+{
+  "filename": "N09ii-A4-1",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.103839\t0.274049\tP1: TIGHT FLAT\n0.274049\t0.326504\tP2: TIGHT\n0.321151\t0.646585\tP3: UP T SHORT FAST, UP SLOW, RIGHT PEAK FAST\n0.627316\t0.627316\tmax\n0.651937\t0.688334\tP4: UP FAST TIGHT\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "too tight",
+      "points": [
+        {
+          "time_s": 0.203398,
+          "freq_hz": 626.3611
+        },
+        {
+          "time_s": 0.51285,
+          "freq_hz": 626.3611
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.545671,
+          "freq_hz": 603.1182
+        },
+        {
+          "time_s": 0.592557,
+          "freq_hz": 629.3407
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.606623,
+          "freq_hz": 895.8274
+        },
+        {
+          "time_s": 0.637099,
+          "freq_hz": 1554.5239
+        },
+        {
+          "time_s": 0.829334,
+          "freq_hz": 1712.6111
+        },
+        {
+          "time_s": 0.95124,
+          "freq_hz": 1976.0898
+        },
+        {
+          "time_s": 1.091899,
+          "freq_hz": 2503.047
+        },
+        {
+          "time_s": 1.166918,
+          "freq_hz": 3978.5274
+        },
+        {
+          "time_s": 1.202083,
+          "freq_hz": 3794.0923
+        },
+        {
+          "time_s": 1.218493,
+          "freq_hz": 2292.2641
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P4",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 1.225526,
+          "freq_hz": 767.7577
+        },
+        {
+          "time_s": 1.274757,
+          "freq_hz": 767.7577
+        },
+        {
+          "time_s": 1.291167,
+          "freq_hz": 953.0785
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

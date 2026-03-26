@@ -1,0 +1,56 @@
+{
+  "filename": "N04-A1-1",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.233951\t1.116582\tP1: LEFT PEAK, FLAT\n0.409897\t0.409897\tmax\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.243329,
+          "freq_hz": 939.5417
+        },
+        {
+          "time_s": 0.34,
+          "freq_hz": 1424.07
+        },
+        {
+          "time_s": 0.45,
+          "freq_hz": 1508.767
+        },
+        {
+          "time_s": 0.56,
+          "freq_hz": 1424.07
+        },
+        {
+          "time_s": 0.67,
+          "freq_hz": 1220.776
+        },
+        {
+          "time_s": 0.78,
+          "freq_hz": 1174.66
+        },
+        {
+          "time_s": 0.894993,
+          "freq_hz": 1148.3288
+        },
+        {
+          "time_s": 1.0,
+          "freq_hz": 1152.258
+        },
+        {
+          "time_s": 1.11,
+          "freq_hz": 1130.285
+        }
+      ],
+      "audacity_label": {
+        "start": 0.233951,
+        "end": 1.116582,
+        "note": "P1: LEFT PEAK, FLAT"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

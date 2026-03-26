@@ -1,0 +1,60 @@
+{
+  "filename": "N05i-A1-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.192245\t0.192245\tNOTE: Not sure if P2 is just the upsweep at the end? \n0.390842\t1.533121\tP1: PEAK, UP SLOW, UP SHORT FAST\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.367323,
+          "freq_hz": 730.7547
+        },
+        {
+          "time_s": 0.418668,
+          "freq_hz": 1043.9352
+        },
+        {
+          "time_s": 0.6,
+          "freq_hz": 1046.502
+        },
+        {
+          "time_s": 0.7,
+          "freq_hz": 1066.696
+        },
+        {
+          "time_s": 0.81,
+          "freq_hz": 1066.849
+        },
+        {
+          "time_s": 0.91,
+          "freq_hz": 1087.587
+        },
+        {
+          "time_s": 1.01,
+          "freq_hz": 1130.285
+        },
+        {
+          "time_s": 1.11,
+          "freq_hz": 1152.254
+        },
+        {
+          "time_s": 1.32126,
+          "freq_hz": 1304.919
+        },
+        {
+          "time_s": 1.521235,
+          "freq_hz": 1565.9029
+        }
+      ],
+      "audacity_label": {
+        "start": 0.390842,
+        "end": 1.533121,
+        "note": "P1: PEAK, UP SLOW, UP SHORT FAST"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

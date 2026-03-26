@@ -1,0 +1,90 @@
+{
+  "filename": "N01iii-C1-1",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.349307\t0.647757\tP1: VERTICAL\n0.626343\t1.406595\tBIPHO: UP FAST SHORT, PEAK, FLAT, DOWN FAST SHORT\n0.647757\t0.714674\tP2: TIGHT FLAT\n0.714674\t1.351723\tP3: LEFT PEAK, FLAT\n0.756162\t0.756162\tmax\n0.844493\t0.844493\tmax bipho\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "vertical",
+      "points": [
+        {
+          "time_s": 0.354868,
+          "freq_hz": 237.1308
+        },
+        {
+          "time_s": 0.64,
+          "freq_hz": 188.594
+        }
+      ],
+      "audacity_label": {
+        "start": 0.349307,
+        "end": 0.647757,
+        "note": "P1: VERTICAL"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.653987,
+          "freq_hz": 632.3487
+        },
+        {
+          "time_s": 0.70384,
+          "freq_hz": 632.3487
+        }
+      ],
+      "audacity_label": {
+        "start": 0.647757,
+        "end": 0.714674,
+        "note": "P2: TIGHT FLAT"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.712638,
+          "freq_hz": 658.6966
+        },
+        {
+          "time_s": 0.759559,
+          "freq_hz": 1027.5667
+        },
+        {
+          "time_s": 0.838737,
+          "freq_hz": 948.5231
+        },
+        {
+          "time_s": 0.93,
+          "freq_hz": 754.375
+        },
+        {
+          "time_s": 1.03,
+          "freq_hz": 634.819
+        },
+        {
+          "time_s": 1.14,
+          "freq_hz": 634.351
+        },
+        {
+          "time_s": 1.24,
+          "freq_hz": 646.683
+        },
+        {
+          "time_s": 1.35,
+          "freq_hz": 725.878
+        }
+      ],
+      "audacity_label": {
+        "start": 0.714674,
+        "end": 1.351723,
+        "note": "P3: LEFT PEAK, FLAT"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

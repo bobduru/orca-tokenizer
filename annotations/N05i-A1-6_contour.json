@@ -1,0 +1,63 @@
+{
+  "filename": "N05i-A1-6",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.065696\t0.065696\tNOTE: looks like aliasing \n0.304276\t1.175614\tP1: PEAK, UP SLOW\n1.175614\t1.244767\tP2: BLUR NOISY\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.315756,
+          "freq_hz": 1101.3462
+        },
+        {
+          "time_s": 0.377211,
+          "freq_hz": 1127.5687
+        },
+        {
+          "time_s": 0.46598,
+          "freq_hz": 1520.9067
+        },
+        {
+          "time_s": 0.49557,
+          "freq_hz": 1363.5715
+        },
+        {
+          "time_s": 0.74,
+          "freq_hz": 1538.08
+        },
+        {
+          "time_s": 1.17,
+          "freq_hz": 1756.087
+        }
+      ],
+      "audacity_label": {
+        "start": 0.304276,
+        "end": 1.175614,
+        "note": "P1: PEAK, UP SLOW"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 1.185238,
+          "freq_hz": 629.3407
+        },
+        {
+          "time_s": 1.242141,
+          "freq_hz": 603.1182
+        }
+      ],
+      "audacity_label": {
+        "start": 1.175614,
+        "end": 1.244767,
+        "note": "P2: BLUR NOISY"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

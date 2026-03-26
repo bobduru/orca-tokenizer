@@ -1,0 +1,74 @@
+{
+  "filename": "N24i-I31-1",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.193587\t0.493894\tP1: FLAT NORMAL\n0.493894\t0.786756\tP2: UP T FAST SHORT, FLAT SPACED\n0.786756\t0.910850\tP3: BLUR DOWN\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.193351,
+          "freq_hz": 798.2982
+        },
+        {
+          "time_s": 0.333351,
+          "freq_hz": 798.2982
+        },
+        {
+          "time_s": 0.479177,
+          "freq_hz": 790.4359
+        }
+      ],
+      "audacity_label": {
+        "start": 0.193587,
+        "end": 0.493894,
+        "note": "P1: FLAT NORMAL"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.486701,
+          "freq_hz": 804.0155
+        },
+        {
+          "time_s": 0.544008,
+          "freq_hz": 895.8274
+        },
+        {
+          "time_s": 0.7651,
+          "freq_hz": 895.8274
+        }
+      ],
+      "audacity_label": {
+        "start": 0.493894,
+        "end": 0.786756,
+        "note": "P2: UP T FAST SHORT, FLAT SPACED"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 0.776736,
+          "freq_hz": 158.0872
+        },
+        {
+          "time_s": 0.91,
+          "freq_hz": 118.807
+        }
+      ],
+      "audacity_label": {
+        "start": 0.786756,
+        "end": 0.91085,
+        "note": "P3: BLUR DOWN"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

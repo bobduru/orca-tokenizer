@@ -1,0 +1,74 @@
+{
+  "filename": "N48-G1-1",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.509542,
+          "freq_hz": 782.9514
+        },
+        {
+          "time_s": 0.640117,
+          "freq_hz": 835.1482
+        },
+        {
+          "time_s": 0.758374,
+          "freq_hz": 782.9514
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.768228,
+          "freq_hz": 2622.2529
+        },
+        {
+          "time_s": 0.834748,
+          "freq_hz": 2281.36
+        },
+        {
+          "time_s": 0.89634,
+          "freq_hz": 2596.0303
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P3",
+      "notes": "NOISY",
+      "points": [
+        {
+          "time_s": 0.906194,
+          "freq_hz": 895.8274
+        },
+        {
+          "time_s": 0.965323,
+          "freq_hz": 1185.6539
+        },
+        {
+          "time_s": 1.021987,
+          "freq_hz": 1422.7846
+        },
+        {
+          "time_s": 1.100825,
+          "freq_hz": 1396.4368
+        },
+        {
+          "time_s": 1.152562,
+          "freq_hz": 1053.9145
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

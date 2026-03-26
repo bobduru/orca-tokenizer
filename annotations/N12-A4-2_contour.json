@@ -1,0 +1,47 @@
+{
+  "filename": "N12-A4-2",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.308616,
+          "freq_hz": 642.2812
+        },
+        {
+          "time_s": 0.361151,
+          "freq_hz": 587.2136
+        },
+        {
+          "time_s": 0.404371,
+          "freq_hz": 626.3611
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.419333,
+          "freq_hz": 340.8929
+        },
+        {
+          "time_s": 0.487489,
+          "freq_hz": 275.3366
+        },
+        {
+          "time_s": 0.888113,
+          "freq_hz": 275.3366
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

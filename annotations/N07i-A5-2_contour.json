@@ -1,0 +1,63 @@
+{
+  "filename": "N07i-A5-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.310713\t0.630564\tP1: DOWN TIGHT, FLAT TIGHT\n0.630564\t1.236759\tP2: UP T, FLAT\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "too tight",
+      "points": [
+        {
+          "time_s": 0.32,
+          "freq_hz": 58.27
+        },
+        {
+          "time_s": 0.63,
+          "freq_hz": 58.27
+        }
+      ],
+      "audacity_label": {
+        "start": 0.310713,
+        "end": 0.630564,
+        "note": "P1: DOWN TIGHT, FLAT TIGHT"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.639537,
+          "freq_hz": 537.5618
+        },
+        {
+          "time_s": 0.701709,
+          "freq_hz": 721.1195
+        },
+        {
+          "time_s": 0.752577,
+          "freq_hz": 996.4561
+        },
+        {
+          "time_s": 0.854312,
+          "freq_hz": 1140.68
+        },
+        {
+          "time_s": 0.969235,
+          "freq_hz": 1153.7913
+        },
+        {
+          "time_s": 1.227342,
+          "freq_hz": 1127.5687
+        }
+      ],
+      "audacity_label": {
+        "start": 0.630564,
+        "end": 1.236759,
+        "note": "P2: UP T, FLAT"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

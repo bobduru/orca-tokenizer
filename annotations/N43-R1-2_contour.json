@@ -1,0 +1,40 @@
+{
+  "filename": "N43-R1-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.127541\t0.585290\tBIPHO: UP FAST SHORT, PEAK LEFT, FLAT\n0.223633\t0.518899\tP1: PEAK LEFT NORMAL\n0.223633\t0.223633\tmax bipho\n0.291771\t0.291771\tmax\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.210005,
+          "freq_hz": 730.7547
+        },
+        {
+          "time_s": 0.247983,
+          "freq_hz": 835.1482
+        },
+        {
+          "time_s": 0.295168,
+          "freq_hz": 913.4433
+        },
+        {
+          "time_s": 0.37,
+          "freq_hz": 880.0
+        },
+        {
+          "time_s": 0.501171,
+          "freq_hz": 835.1482
+        }
+      ],
+      "audacity_label": {
+        "start": 0.223633,
+        "end": 0.518899,
+        "note": "P1: PEAK LEFT NORMAL"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

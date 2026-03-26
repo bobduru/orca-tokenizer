@@ -1,0 +1,43 @@
+{
+  "filename": "N12-I1,I2,I18-3",
+  "general_notes": "skip",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.219849,
+          "freq_hz": 485.6909
+        },
+        {
+          "time_s": 0.249936,
+          "freq_hz": 521.9676
+        },
+        {
+          "time_s": 0.280352,
+          "freq_hz": 469.7709
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.303165,
+          "freq_hz": 340.8929
+        },
+        {
+          "time_s": 0.860169,
+          "freq_hz": 354.0041
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

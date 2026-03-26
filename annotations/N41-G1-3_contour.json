@@ -1,0 +1,93 @@
+{
+  "filename": "N41-G1-3",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.218935\t0.539229\tP1: VERTICAL, TIGHT, VERTICAL\n0.622343\t0.695321\tP2: TIGHT FLAT\n0.762218\t0.845333\tP3: TIGHT UP\n0.922365\t1.139273\tP4: DOWN SHORT NORMAL, FLAT NORMAL\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "too tight",
+      "points": [
+        {
+          "time_s": 0.220414,
+          "freq_hz": 423.5904
+        },
+        {
+          "time_s": 0.32,
+          "freq_hz": 383.8388
+        },
+        {
+          "time_s": 0.42,
+          "freq_hz": 376.4008
+        },
+        {
+          "time_s": 0.53,
+          "freq_hz": 578.2128
+        }
+      ],
+      "audacity_label": {
+        "start": 0.218935,
+        "end": 0.539229,
+        "note": "P1: VERTICAL, TIGHT, VERTICAL"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.63,
+          "freq_hz": 349.726
+        },
+        {
+          "time_s": 0.687166,
+          "freq_hz": 423.5904
+        }
+      ],
+      "audacity_label": {
+        "start": 0.622343,
+        "end": 0.695321,
+        "note": "P2: TIGHT FLAT"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.77,
+          "freq_hz": 407.385
+        },
+        {
+          "time_s": 0.84,
+          "freq_hz": 588.756
+        }
+      ],
+      "audacity_label": {
+        "start": 0.762218,
+        "end": 0.845333,
+        "note": "P3: TIGHT UP"
+      }
+    },
+    {
+      "label": "P4",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.942672,
+          "freq_hz": 847.1809
+        },
+        {
+          "time_s": 1.129775,
+          "freq_hz": 820.7065
+        }
+      ],
+      "audacity_label": {
+        "start": 0.922365,
+        "end": 1.139273,
+        "note": "P4: DOWN SHORT NORMAL, FLAT NORMAL"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

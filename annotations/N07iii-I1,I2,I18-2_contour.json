@@ -1,0 +1,94 @@
+{
+  "filename": "N07iii-I1,I2,I18-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.250710\t0.426208\tP1: TIGHT FLAT\n0.426208\t0.817316\tP2: PEAK LEFT\n0.498914\t0.498914\tmax\n0.817316\t1.035434\tP3: UP T FAST, UP SPACED\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "too tight",
+      "points": [
+        {
+          "time_s": 0.26,
+          "freq_hz": 324.374
+        },
+        {
+          "time_s": 0.408898,
+          "freq_hz": 329.3483
+        }
+      ],
+      "audacity_label": {
+        "start": 0.25071,
+        "end": 0.426208,
+        "note": "P1: TIGHT FLAT"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.421634,
+          "freq_hz": 579.653
+        },
+        {
+          "time_s": 0.453474,
+          "freq_hz": 632.3487
+        },
+        {
+          "time_s": 0.538382,
+          "freq_hz": 645.5227
+        },
+        {
+          "time_s": 0.678479,
+          "freq_hz": 592.8269
+        },
+        {
+          "time_s": 0.814331,
+          "freq_hz": 592.8269
+        }
+      ],
+      "audacity_label": {
+        "start": 0.426208,
+        "end": 0.817316,
+        "note": "P2: PEAK LEFT"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.820699,
+          "freq_hz": 1185.6539
+        },
+        {
+          "time_s": 0.86103,
+          "freq_hz": 2595.2646
+        },
+        {
+          "time_s": 0.903483,
+          "freq_hz": 3188.0915
+        },
+        {
+          "time_s": 0.94806,
+          "freq_hz": 3477.918
+        },
+        {
+          "time_s": 1.018108,
+          "freq_hz": 3649.1791
+        },
+        {
+          "time_s": 1.032967,
+          "freq_hz": 4821.659
+        }
+      ],
+      "audacity_label": {
+        "start": 0.817316,
+        "end": 1.035434,
+        "note": "P3: UP T FAST, UP SPACED"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

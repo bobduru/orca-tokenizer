@@ -1,0 +1,48 @@
+{
+  "filename": "N40-G1-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.070639\t0.070639\tNOTE: I really have no idea what I'm hearing\n0.166708\t0.723344\tP1: FLAT\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.17,
+          "freq_hz": 711.977
+        },
+        {
+          "time_s": 0.28,
+          "freq_hz": 769.038
+        },
+        {
+          "time_s": 0.326156,
+          "freq_hz": 521.9676
+        },
+        {
+          "time_s": 0.365643,
+          "freq_hz": 678.5579
+        },
+        {
+          "time_s": 0.61,
+          "freq_hz": 739.989
+        },
+        {
+          "time_s": 0.673313,
+          "freq_hz": 730.7547
+        },
+        {
+          "time_s": 0.719381,
+          "freq_hz": 574.1644
+        }
+      ],
+      "audacity_label": {
+        "start": 0.166708,
+        "end": 0.723344,
+        "note": "P1: FLAT"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

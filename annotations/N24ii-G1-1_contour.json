@@ -1,0 +1,43 @@
+{
+  "filename": "N24ii-G1-1",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.481172,
+          "freq_hz": 939.5417
+        },
+        {
+          "time_s": 1.23521,
+          "freq_hz": 913.4433
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 1.242192,
+          "freq_hz": 917.7885
+        },
+        {
+          "time_s": 1.277101,
+          "freq_hz": 1232.4589
+        },
+        {
+          "time_s": 1.305029,
+          "freq_hz": 1337.349
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

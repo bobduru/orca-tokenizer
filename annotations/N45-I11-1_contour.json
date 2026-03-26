@@ -1,0 +1,32 @@
+{
+  "filename": "N45-I11-1",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.310257,
+          "freq_hz": 1174.4271
+        },
+        {
+          "time_s": 0.388217,
+          "freq_hz": 991.7385
+        },
+        {
+          "time_s": 0.540172,
+          "freq_hz": 1017.8369
+        },
+        {
+          "time_s": 0.612846,
+          "freq_hz": 939.5417
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

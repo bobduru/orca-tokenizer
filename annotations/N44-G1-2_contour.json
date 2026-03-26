@@ -1,0 +1,110 @@
+{
+  "filename": "N44-G1-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.176257\t0.276294\tP1: BLUR\n0.276294\t1.305252\tP2: PEAK LEFT SPACED, DOWN SLOW SPACED\n0.347750\t0.347750\tmax\n1.305252\t1.872132\tP3: DOWN T SHORT FAST, FLAT NORMAL\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 0.194703,
+          "freq_hz": 474.2615
+        },
+        {
+          "time_s": 0.27,
+          "freq_hz": 598.748
+        }
+      ],
+      "audacity_label": {
+        "start": 0.176257,
+        "end": 0.276294,
+        "note": "P1: BLUR"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.262731,
+          "freq_hz": 1159.306
+        },
+        {
+          "time_s": 0.308083,
+          "freq_hz": 1765.3069
+        },
+        {
+          "time_s": 0.337238,
+          "freq_hz": 1923.394
+        },
+        {
+          "time_s": 0.450619,
+          "freq_hz": 1528.1761
+        },
+        {
+          "time_s": 0.89,
+          "freq_hz": 1244.508
+        },
+        {
+          "time_s": 0.99,
+          "freq_hz": 1220.775
+        },
+        {
+          "time_s": 1.19,
+          "freq_hz": 1174.659
+        },
+        {
+          "time_s": 1.276675,
+          "freq_hz": 1159.306
+        }
+      ],
+      "audacity_label": {
+        "start": 0.276294,
+        "end": 1.305252,
+        "note": "P2: PEAK LEFT SPACED, DOWN SLOW SPACED"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 1.279914,
+          "freq_hz": 1159.306
+        },
+        {
+          "time_s": 1.331745,
+          "freq_hz": 632.3487
+        },
+        {
+          "time_s": 1.403013,
+          "freq_hz": 553.3051
+        },
+        {
+          "time_s": 1.53,
+          "freq_hz": 543.794
+        },
+        {
+          "time_s": 1.64,
+          "freq_hz": 554.365
+        },
+        {
+          "time_s": 1.75,
+          "freq_hz": 554.365
+        },
+        {
+          "time_s": 1.87,
+          "freq_hz": 565.143
+        }
+      ],
+      "audacity_label": {
+        "start": 1.305252,
+        "end": 1.872132,
+        "note": "P3: DOWN T SHORT FAST, FLAT NORMAL"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

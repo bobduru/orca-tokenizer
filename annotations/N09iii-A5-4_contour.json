@@ -1,0 +1,97 @@
+{
+  "filename": "N09iii-A5-4",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.058262\t0.058262\tNOTE: P2 is confusing, i'd like to say it is unknown\n0.190895\t0.419969\tP1: TIGHT FLAT\n0.419969\t0.547232\tP2: BLUR\n0.547232\t1.027652\tP3: UP SLOW\n1.027652\t1.167641\tP4: BLUR, UP NORMAL | BLUR, FLAT NORMAL\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "too tight",
+      "points": [
+        {
+          "time_s": 0.2,
+          "freq_hz": 296.156
+        },
+        {
+          "time_s": 0.41,
+          "freq_hz": 288.061
+        }
+      ],
+      "audacity_label": {
+        "start": 0.190895,
+        "end": 0.419969,
+        "note": "P1: TIGHT FLAT"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 0.42,
+          "freq_hz": 391.996
+        },
+        {
+          "time_s": 0.54,
+          "freq_hz": 1244.134
+        }
+      ],
+      "audacity_label": {
+        "start": 0.419969,
+        "end": 0.547232,
+        "note": "P2: BLUR"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.55,
+          "freq_hz": 1344.15
+        },
+        {
+          "time_s": 0.66,
+          "freq_hz": 1538.08
+        },
+        {
+          "time_s": 0.78,
+          "freq_hz": 1659.349
+        },
+        {
+          "time_s": 0.9,
+          "freq_hz": 1693.514
+        },
+        {
+          "time_s": 1.018177,
+          "freq_hz": 1694.3617
+        }
+      ],
+      "audacity_label": {
+        "start": 0.547232,
+        "end": 1.027652,
+        "note": "P3: UP SLOW"
+      }
+    },
+    {
+      "label": "P4",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 1.03,
+          "freq_hz": 246.942
+        },
+        {
+          "time_s": 1.16,
+          "freq_hz": 141.286
+        }
+      ],
+      "audacity_label": {
+        "start": 1.027652,
+        "end": 1.167641,
+        "note": "P4: BLUR, UP NORMAL | BLUR, FLAT NORMAL"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

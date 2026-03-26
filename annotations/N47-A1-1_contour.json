@@ -1,0 +1,87 @@
+{
+  "filename": "N47-A1-1",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.177509\t0.374742\tP1: BLUR\n0.341139\t0.974474\tBIPHO: UP, SQUIGGLE\n0.374742\t0.974474\tP2: UP SQUIGGLE\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "too tight",
+      "points": [
+        {
+          "time_s": 0.18,
+          "freq_hz": 277.183
+        },
+        {
+          "time_s": 0.372122,
+          "freq_hz": 445.783
+        }
+      ],
+      "audacity_label": {
+        "start": 0.177509,
+        "end": 0.374742,
+        "note": "P1: BLUR"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.38,
+          "freq_hz": 1003.527
+        },
+        {
+          "time_s": 0.439434,
+          "freq_hz": 1730.6869
+        },
+        {
+          "time_s": 0.489117,
+          "freq_hz": 1835.577
+        },
+        {
+          "time_s": 0.546813,
+          "freq_hz": 1704.4644
+        },
+        {
+          "time_s": 0.61,
+          "freq_hz": 1900.906
+        },
+        {
+          "time_s": 0.66541,
+          "freq_hz": 2228.9149
+        },
+        {
+          "time_s": 0.695861,
+          "freq_hz": 2255.1375
+        },
+        {
+          "time_s": 0.753557,
+          "freq_hz": 1940.4671
+        },
+        {
+          "time_s": 0.803481,
+          "freq_hz": 2422.9866
+        },
+        {
+          "time_s": 0.876963,
+          "freq_hz": 2832.0331
+        },
+        {
+          "time_s": 0.92344,
+          "freq_hz": 2727.143
+        },
+        {
+          "time_s": 0.966712,
+          "freq_hz": 2543.5853
+        }
+      ],
+      "audacity_label": {
+        "start": 0.374742,
+        "end": 0.974474,
+        "note": "P2: UP SQUIGGLE"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

@@ -1,0 +1,78 @@
+{
+  "filename": "N07ii-H1-1",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.182206,
+          "freq_hz": 143.5411
+        },
+        {
+          "time_s": 0.247191,
+          "freq_hz": 169.6395
+        },
+        {
+          "time_s": 0.296421,
+          "freq_hz": 260.9838
+        },
+        {
+          "time_s": 0.353529,
+          "freq_hz": 221.8362
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.357468,
+          "freq_hz": 708.0083
+        },
+        {
+          "time_s": 0.406699,
+          "freq_hz": 1232.4589
+        },
+        {
+          "time_s": 0.457899,
+          "freq_hz": 1337.349
+        },
+        {
+          "time_s": 0.751315,
+          "freq_hz": 1363.5715
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.753451,
+          "freq_hz": 1386.1611
+        },
+        {
+          "time_s": 0.881285,
+          "freq_hz": 2634.7863
+        },
+        {
+          "time_s": 1.038824,
+          "freq_hz": 2766.5257
+        },
+        {
+          "time_s": 1.166824,
+          "freq_hz": 3161.7436
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

@@ -1,0 +1,105 @@
+{
+  "filename": "N13-A1-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.094109\t0.094109\tNOTE: Not sure what to call P2\n0.288766\t0.337062\tP1: BLUR\n0.343589\t0.443568\tP2: NORMAL FLAT\n0.349824\t0.511683\tBIPHO: UP\n0.443568\t0.716200\tP3: SQUIGGLE\n0.519299\t0.519299\tmax\n0.597194\t0.597194\tmin\n0.679416\t0.679416\tmax\n0.703156\t0.735118\tP4: VALLEY\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 0.29,
+          "freq_hz": 299.374
+        },
+        {
+          "time_s": 0.339012,
+          "freq_hz": 582.9974
+        }
+      ],
+      "audacity_label": {
+        "start": 0.288766,
+        "end": 0.337062,
+        "note": "P1: BLUR"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.35325,
+          "freq_hz": 925.0498
+        },
+        {
+          "time_s": 0.437661,
+          "freq_hz": 903.6715
+        }
+      ],
+      "audacity_label": {
+        "start": 0.343589,
+        "end": 0.443568,
+        "note": "P2: NORMAL FLAT"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.446814,
+          "freq_hz": 925.0498
+        },
+        {
+          "time_s": 0.497664,
+          "freq_hz": 1074.6976
+        },
+        {
+          "time_s": 0.553599,
+          "freq_hz": 1096.0759
+        },
+        {
+          "time_s": 0.563769,
+          "freq_hz": 818.1584
+        },
+        {
+          "time_s": 0.618686,
+          "freq_hz": 818.1584
+        },
+        {
+          "time_s": 0.634958,
+          "freq_hz": 1010.5628
+        },
+        {
+          "time_s": 0.705131,
+          "freq_hz": 1053.3194
+        }
+      ],
+      "audacity_label": {
+        "start": 0.443568,
+        "end": 0.7162,
+        "note": "P3: SQUIGGLE"
+      }
+    },
+    {
+      "label": "P4",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 0.713051,
+          "freq_hz": 1111.1785
+        },
+        {
+          "time_s": 0.737675,
+          "freq_hz": 1138.8325
+        }
+      ],
+      "audacity_label": {
+        "start": 0.703156,
+        "end": 0.735118,
+        "note": "P4: VALLEY"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

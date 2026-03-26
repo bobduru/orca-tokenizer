@@ -1,0 +1,51 @@
+{
+  "filename": "N50-R1-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.108982\t0.108982\tNOTE: Catalogue doesn't measure the second part, it sounds high but maybe it's not?\n0.262239\t0.413792\tP1: UP SHORT TIGHT, FLAT SHORT SPACED\n0.660705\t0.711790\tP2: SPACED UP\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.27,
+          "freq_hz": 739.803
+        },
+        {
+          "time_s": 0.353401,
+          "freq_hz": 1730.6869
+        },
+        {
+          "time_s": 0.412052,
+          "freq_hz": 1809.3545
+        }
+      ],
+      "audacity_label": {
+        "start": 0.262239,
+        "end": 0.413792,
+        "note": "P1: UP SHORT TIGHT, FLAT SHORT SPACED"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "NOISY",
+      "points": [
+        {
+          "time_s": 0.673049,
+          "freq_hz": 2438.6952
+        },
+        {
+          "time_s": 0.697975,
+          "freq_hz": 2727.143
+        }
+      ],
+      "audacity_label": {
+        "start": 0.660705,
+        "end": 0.71179,
+        "note": "P2: SPACED UP"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

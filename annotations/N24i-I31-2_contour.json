@@ -1,0 +1,55 @@
+{
+  "filename": "N24i-I31-2",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.179648,
+          "freq_hz": 809.0498
+        },
+        {
+          "time_s": 0.667866,
+          "freq_hz": 835.1482
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.684847,
+          "freq_hz": 996.4561
+        },
+        {
+          "time_s": 0.742159,
+          "freq_hz": 1468.4616
+        },
+        {
+          "time_s": 1.15396,
+          "freq_hz": 1494.6841
+        },
+        {
+          "time_s": 1.1858,
+          "freq_hz": 734.2308
+        },
+        {
+          "time_s": 1.238867,
+          "freq_hz": 550.6731
+        },
+        {
+          "time_s": 1.287689,
+          "freq_hz": 550.6731
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

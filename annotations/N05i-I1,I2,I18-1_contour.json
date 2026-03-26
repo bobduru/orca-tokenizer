@@ -1,0 +1,55 @@
+{
+  "filename": "N05i-I1,I2,I18-1",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.3155,
+          "freq_hz": 704.6563
+        },
+        {
+          "time_s": 0.388387,
+          "freq_hz": 939.5417
+        },
+        {
+          "time_s": 0.453602,
+          "freq_hz": 913.4433
+        },
+        {
+          "time_s": 0.509227,
+          "freq_hz": 1017.8369
+        },
+        {
+          "time_s": 0.702954,
+          "freq_hz": 1122.2304
+        },
+        {
+          "time_s": 0.982995,
+          "freq_hz": 1148.3288
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.969568,
+          "freq_hz": 839.1209
+        },
+        {
+          "time_s": 1.011766,
+          "freq_hz": 839.1209
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

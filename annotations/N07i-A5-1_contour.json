@@ -1,0 +1,59 @@
+{
+  "filename": "N07i-A5-1",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.343256\t0.343256\tNOTE: Hard to tell if P1 slides down for a sec\n0.377392\t0.593586\tP1: TIGHT FLAT | DOWN SHORT FAST TIGHT, FLAT TIGHT\n0.593586\t0.952013\tP2: UP T SHORT, FLAT\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "too tight",
+      "points": [
+        {
+          "time_s": 0.38,
+          "freq_hz": 377.187
+        },
+        {
+          "time_s": 0.582583,
+          "freq_hz": 262.2253
+        }
+      ],
+      "audacity_label": {
+        "start": 0.377392,
+        "end": 0.593586,
+        "note": "P1: TIGHT FLAT | DOWN SHORT FAST TIGHT, FLAT TIGHT"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.596359,
+          "freq_hz": 603.1182
+        },
+        {
+          "time_s": 0.629078,
+          "freq_hz": 917.7885
+        },
+        {
+          "time_s": 0.680738,
+          "freq_hz": 1075.1237
+        },
+        {
+          "time_s": 0.83,
+          "freq_hz": 1090.537
+        },
+        {
+          "time_s": 0.945929,
+          "freq_hz": 1075.1237
+        }
+      ],
+      "audacity_label": {
+        "start": 0.593586,
+        "end": 0.952013,
+        "note": "P2: UP T SHORT, FLAT"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

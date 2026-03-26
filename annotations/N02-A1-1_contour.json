@@ -1,0 +1,78 @@
+{
+  "filename": "N02-A1-1",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "too tight",
+      "points": [
+        {
+          "time_s": 0.157245,
+          "freq_hz": 1017.8369
+        },
+        {
+          "time_s": 0.432768,
+          "freq_hz": 965.6401
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.420714,
+          "freq_hz": 1258.6814
+        },
+        {
+          "time_s": 0.480984,
+          "freq_hz": 1127.5687
+        },
+        {
+          "time_s": 0.529201,
+          "freq_hz": 1206.2363
+        },
+        {
+          "time_s": 0.572251,
+          "freq_hz": 1337.349
+        },
+        {
+          "time_s": 0.642854,
+          "freq_hz": 1232.4589
+        },
+        {
+          "time_s": 0.713456,
+          "freq_hz": 1206.2363
+        },
+        {
+          "time_s": 0.787503,
+          "freq_hz": 1284.9039
+        },
+        {
+          "time_s": 0.846052,
+          "freq_hz": 1520.9067
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.849496,
+          "freq_hz": 1554.5239
+        },
+        {
+          "time_s": 0.875326,
+          "freq_hz": 1897.0462
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

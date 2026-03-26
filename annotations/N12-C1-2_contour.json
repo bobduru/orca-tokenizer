@@ -1,0 +1,70 @@
+{
+  "filename": "N12-C1-2",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.208513,
+          "freq_hz": 215.3116
+        },
+        {
+          "time_s": 0.265596,
+          "freq_hz": 443.6725
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.26734,
+          "freq_hz": 453.0597
+        },
+        {
+          "time_s": 0.307879,
+          "freq_hz": 301.5591
+        },
+        {
+          "time_s": 0.55735,
+          "freq_hz": 268.7809
+        },
+        {
+          "time_s": 0.783565,
+          "freq_hz": 275.3366
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.791651,
+          "freq_hz": 274.0836
+        },
+        {
+          "time_s": 0.885044,
+          "freq_hz": 922.1752
+        },
+        {
+          "time_s": 0.946355,
+          "freq_hz": 1119.7842
+        },
+        {
+          "time_s": 1.185255,
+          "freq_hz": 1291.0453
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

@@ -1,0 +1,52 @@
+{
+  "filename": "N20-C1-1",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.027921\t0.027921\tNOTE: P2 goes from TIGHT to NORMAL to TIGHT\n0.116759\t0.159909\tEXTRA: BLUR\n0.159909\t0.852849\tP2: PEAK NORMAL | VALLEY TIGHT, PEAK NORMAL, DOWN TIGHT \n0.223365\t0.223365\tmin\n0.507648\t0.507648\tmax\n",
+  "parts": [
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.170569,
+          "freq_hz": 313.1806
+        },
+        {
+          "time_s": 0.239083,
+          "freq_hz": 339.279
+        },
+        {
+          "time_s": 0.309055,
+          "freq_hz": 495.8692
+        },
+        {
+          "time_s": 0.400893,
+          "freq_hz": 965.6401
+        },
+        {
+          "time_s": 0.514598,
+          "freq_hz": 1122.2304
+        },
+        {
+          "time_s": 0.612267,
+          "freq_hz": 991.7385
+        },
+        {
+          "time_s": 0.677865,
+          "freq_hz": 704.6563
+        },
+        {
+          "time_s": 0.727429,
+          "freq_hz": 417.5741
+        }
+      ],
+      "audacity_label": {
+        "start": 0.159909,
+        "end": 0.852849,
+        "note": "P2: PEAK NORMAL | VALLEY TIGHT, PEAK NORMAL, DOWN TIGHT"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

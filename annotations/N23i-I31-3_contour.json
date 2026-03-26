@@ -1,0 +1,67 @@
+{
+  "filename": "N23i-I31-3",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.151636,
+          "freq_hz": 1383.2142
+        },
+        {
+          "time_s": 0.186144,
+          "freq_hz": 1670.2964
+        },
+        {
+          "time_s": 0.282168,
+          "freq_hz": 1592.0012
+        },
+        {
+          "time_s": 0.384193,
+          "freq_hz": 1618.0996
+        },
+        {
+          "time_s": 0.399197,
+          "freq_hz": 1644.198
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.403698,
+          "freq_hz": 1048.9012
+        },
+        {
+          "time_s": 0.444208,
+          "freq_hz": 786.6759
+        },
+        {
+          "time_s": 0.481717,
+          "freq_hz": 786.6759
+        },
+        {
+          "time_s": 0.523728,
+          "freq_hz": 1075.1237
+        },
+        {
+          "time_s": 0.822301,
+          "freq_hz": 1101.3462
+        },
+        {
+          "time_s": 0.844807,
+          "freq_hz": 812.8984
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

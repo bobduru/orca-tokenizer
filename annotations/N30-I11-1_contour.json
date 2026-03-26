@@ -1,0 +1,127 @@
+{
+  "filename": "N30-I11-1",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.255057\t0.472047\tP1: UP SPACED, FLAT SPACED\n0.472047\t1.709266\tP2: SQUIGGLE\n0.506308\t0.506308\tmin\n0.597672\t0.597672\tmax\n0.675378\t0.675378\tmin\n0.743175\t0.743175\tmax\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.243158,
+          "freq_hz": 891.566
+        },
+        {
+          "time_s": 0.315176,
+          "freq_hz": 1783.132
+        },
+        {
+          "time_s": 0.462212,
+          "freq_hz": 1861.7995
+        }
+      ],
+      "audacity_label": {
+        "start": 0.255057,
+        "end": 0.472047,
+        "note": "P1: UP SPACED, FLAT SPACED"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.48,
+          "freq_hz": 739.989
+        },
+        {
+          "time_s": 0.549234,
+          "freq_hz": 734.2308
+        },
+        {
+          "time_s": 0.591244,
+          "freq_hz": 944.011
+        },
+        {
+          "time_s": 0.68,
+          "freq_hz": 725.877
+        },
+        {
+          "time_s": 0.73528,
+          "freq_hz": 917.7885
+        },
+        {
+          "time_s": 0.780291,
+          "freq_hz": 708.0083
+        },
+        {
+          "time_s": 0.852309,
+          "freq_hz": 708.0083
+        },
+        {
+          "time_s": 0.888318,
+          "freq_hz": 944.011
+        },
+        {
+          "time_s": 0.933329,
+          "freq_hz": 708.0083
+        },
+        {
+          "time_s": 0.996344,
+          "freq_hz": 681.7857
+        },
+        {
+          "time_s": 1.035354,
+          "freq_hz": 944.011
+        },
+        {
+          "time_s": 1.09,
+          "freq_hz": 724.767
+        },
+        {
+          "time_s": 1.173388,
+          "freq_hz": 891.566
+        },
+        {
+          "time_s": 1.26341,
+          "freq_hz": 681.7857
+        },
+        {
+          "time_s": 1.314423,
+          "freq_hz": 917.7885
+        },
+        {
+          "time_s": 1.39,
+          "freq_hz": 725.877
+        },
+        {
+          "time_s": 1.461459,
+          "freq_hz": 891.566
+        },
+        {
+          "time_s": 1.497468,
+          "freq_hz": 708.0083
+        },
+        {
+          "time_s": 1.575488,
+          "freq_hz": 708.0083
+        },
+        {
+          "time_s": 1.617498,
+          "freq_hz": 891.566
+        },
+        {
+          "time_s": 1.7,
+          "freq_hz": 739.989
+        }
+      ],
+      "audacity_label": {
+        "start": 0.472047,
+        "end": 1.709266,
+        "note": "P2: SQUIGGLE"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

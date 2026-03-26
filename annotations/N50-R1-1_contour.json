@@ -1,0 +1,43 @@
+{
+  "filename": "N50-R1-1",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.321825,
+          "freq_hz": 861.2466
+        },
+        {
+          "time_s": 0.408318,
+          "freq_hz": 1565.9029
+        },
+        {
+          "time_s": 0.748221,
+          "freq_hz": 1592.0012
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 0.739116,
+          "freq_hz": 1180.0138
+        },
+        {
+          "time_s": 0.770982,
+          "freq_hz": 1311.1264
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

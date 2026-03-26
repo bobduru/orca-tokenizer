@@ -3,7 +3,7 @@ uv sync
 
 to run UI : 
 
-uv run streamlit run streamlit_app.py
+uv run streamlit run UI/streamlit_app.py
 
 create .env with 
 

@@ -1,0 +1,74 @@
+{
+  "filename": "N29-G1-1",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.145089,
+          "freq_hz": 730.7547
+        },
+        {
+          "time_s": 0.211685,
+          "freq_hz": 887.3449
+        },
+        {
+          "time_s": 0.248682,
+          "freq_hz": 1592.0012
+        },
+        {
+          "time_s": 0.748152,
+          "freq_hz": 1774.6899
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.750002,
+          "freq_hz": 1756.9094
+        },
+        {
+          "time_s": 0.803649,
+          "freq_hz": 895.8274
+        },
+        {
+          "time_s": 0.905393,
+          "freq_hz": 632.3487
+        },
+        {
+          "time_s": 0.992338,
+          "freq_hz": 922.1752
+        },
+        {
+          "time_s": 1.025636,
+          "freq_hz": 2202.6924
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 1.029336,
+          "freq_hz": 2160.5248
+        },
+        {
+          "time_s": 1.079283,
+          "freq_hz": 790.4359
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

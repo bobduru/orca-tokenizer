@@ -1,0 +1,39 @@
+{
+  "filename": "N46-I11-2",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 0.285706,
+          "freq_hz": 287.0822
+        },
+        {
+          "time_s": 0.583674,
+          "freq_hz": 391.4757
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 0.667917,
+          "freq_hz": 314.6703
+        },
+        {
+          "time_s": 0.750599,
+          "freq_hz": 288.4478
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

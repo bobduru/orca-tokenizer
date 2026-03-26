@@ -1,0 +1,48 @@
+{
+  "filename": "N51-R1-1",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.498255,
+          "freq_hz": 182.6887
+        },
+        {
+          "time_s": 0.81942,
+          "freq_hz": 221.8362
+        },
+        {
+          "time_s": 1.06647,
+          "freq_hz": 247.9346
+        },
+        {
+          "time_s": 1.373517,
+          "freq_hz": 326.2298
+        },
+        {
+          "time_s": 1.684094,
+          "freq_hz": 482.82
+        },
+        {
+          "time_s": 1.804089,
+          "freq_hz": 548.066
+        },
+        {
+          "time_s": 1.88,
+          "freq_hz": 672.072
+        },
+        {
+          "time_s": 1.99,
+          "freq_hz": 957.106
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

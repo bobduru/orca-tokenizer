@@ -1,0 +1,59 @@
+{
+  "filename": "N10-A1-1",
+  "general_notes": "parts not clearly visible",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.221993\t0.221993\tNOTE: confusing\n0.307403\t0.352610\tP1: VERTICAL\n0.450414\t0.483016\tP2: TIGHT FLAT\n0.483016\t0.763398\tP3: LEFT PEAK\n0.556046\t0.556046\tmax\n0.763398\t0.792089\tP4: DOWN \n",
+  "parts": [
+    {
+      "label": "P2",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 0.33347,
+          "freq_hz": 314.6703
+        },
+        {
+          "time_s": 0.478512,
+          "freq_hz": 288.4478
+        }
+      ],
+      "audacity_label": {
+        "start": 0.450414,
+        "end": 0.483016,
+        "note": "P2: TIGHT FLAT"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.484684,
+          "freq_hz": 812.8984
+        },
+        {
+          "time_s": 0.532517,
+          "freq_hz": 1022.6786
+        },
+        {
+          "time_s": 0.591151,
+          "freq_hz": 839.1209
+        },
+        {
+          "time_s": 0.671386,
+          "freq_hz": 681.7857
+        },
+        {
+          "time_s": 0.765509,
+          "freq_hz": 734.2308
+        }
+      ],
+      "audacity_label": {
+        "start": 0.483016,
+        "end": 0.763398,
+        "note": "P3: LEFT PEAK"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

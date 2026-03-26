@@ -1,0 +1,40 @@
+{
+  "filename": "N24ii-I31-1",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.22,
+          "freq_hz": 814.77
+        },
+        {
+          "time_s": 0.33,
+          "freq_hz": 799.232
+        },
+        {
+          "time_s": 0.45,
+          "freq_hz": 799.232
+        },
+        {
+          "time_s": 0.56,
+          "freq_hz": 799.233
+        },
+        {
+          "time_s": 0.68,
+          "freq_hz": 783.991
+        },
+        {
+          "time_s": 0.802993,
+          "freq_hz": 809.0498
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

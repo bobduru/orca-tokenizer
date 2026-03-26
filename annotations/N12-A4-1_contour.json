@@ -1,0 +1,51 @@
+{
+  "filename": "N12-A4-1",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "NOISY",
+      "points": [
+        {
+          "time_s": 0.275825,
+          "freq_hz": 613.3119
+        },
+        {
+          "time_s": 0.339796,
+          "freq_hz": 587.2136
+        },
+        {
+          "time_s": 0.41062,
+          "freq_hz": 600.2628
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.408335,
+          "freq_hz": 406.4492
+        },
+        {
+          "time_s": 0.517999,
+          "freq_hz": 327.7816
+        },
+        {
+          "time_s": 0.755603,
+          "freq_hz": 288.4478
+        },
+        {
+          "time_s": 1.189688,
+          "freq_hz": 288.4478
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

@@ -1,0 +1,69 @@
+{
+  "filename": "N26-I11-1",
+  "general_notes": " Very faint",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "too tight",
+      "points": [
+        {
+          "time_s": 0.224753,
+          "freq_hz": 600.2628
+        },
+        {
+          "time_s": 0.59861,
+          "freq_hz": 576.8956
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.606964,
+          "freq_hz": 498.228
+        },
+        {
+          "time_s": 0.744811,
+          "freq_hz": 445.783
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.763608,
+          "freq_hz": 1659.9154
+        },
+        {
+          "time_s": 0.828354,
+          "freq_hz": 1633.5675
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P4",
+      "notes": "vertical",
+      "points": [
+        {
+          "time_s": 0.845063,
+          "freq_hz": 953.0785
+        },
+        {
+          "time_s": 1.254425,
+          "freq_hz": 953.0785
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

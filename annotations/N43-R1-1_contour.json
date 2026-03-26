@@ -1,0 +1,32 @@
+{
+  "filename": "N43-R1-1",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.307214,
+          "freq_hz": 574.1644
+        },
+        {
+          "time_s": 0.34087,
+          "freq_hz": 626.3611
+        },
+        {
+          "time_s": 0.378132,
+          "freq_hz": 756.853
+        },
+        {
+          "time_s": 0.598098,
+          "freq_hz": 756.853
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

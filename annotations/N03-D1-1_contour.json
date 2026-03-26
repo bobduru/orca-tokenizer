@@ -1,0 +1,62 @@
+{
+  "filename": "N03-D1-1",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 0.313949,
+          "freq_hz": 548.066
+        },
+        {
+          "time_s": 0.346888,
+          "freq_hz": 548.066
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "gap",
+      "points": [
+        {
+          "time_s": 0.350026,
+          "freq_hz": 550.6731
+        },
+        {
+          "time_s": 0.375123,
+          "freq_hz": 563.7844
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.387671,
+          "freq_hz": 309.5874
+        },
+        {
+          "time_s": 0.423748,
+          "freq_hz": 322.7613
+        },
+        {
+          "time_s": 0.616682,
+          "freq_hz": 204.1959
+        },
+        {
+          "time_s": 0.803342,
+          "freq_hz": 138.3263
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

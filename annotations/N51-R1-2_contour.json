@@ -1,0 +1,48 @@
+{
+  "filename": "N51-R1-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.153993\t0.781096\tP1: TIGHT UP SLOW, TIGHT UP FAST\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.167185,
+          "freq_hz": 104.3935
+        },
+        {
+          "time_s": 0.274223,
+          "freq_hz": 143.5411
+        },
+        {
+          "time_s": 0.373929,
+          "freq_hz": 169.6395
+        },
+        {
+          "time_s": 0.458973,
+          "freq_hz": 208.787
+        },
+        {
+          "time_s": 0.57041,
+          "freq_hz": 274.033
+        },
+        {
+          "time_s": 0.67,
+          "freq_hz": 634.43
+        },
+        {
+          "time_s": 0.763957,
+          "freq_hz": 1226.6239
+        }
+      ],
+      "audacity_label": {
+        "start": 0.153993,
+        "end": 0.781096,
+        "note": "P1: TIGHT UP SLOW, TIGHT UP FAST"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

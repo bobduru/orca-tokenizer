@@ -1,0 +1,59 @@
+{
+  "filename": "N07i-A1-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.113673\t0.113673\tNOTE: hard to tell if tight goes down a bit at the beginning\n0.163689\t0.378911\tP1: FLAT TIGHT | DOWN SHORT FAST TIGHT, FLAT TIGHT\n0.378911\t0.721446\tP2: UP T SHORT, FLAT\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "too tight",
+      "points": [
+        {
+          "time_s": 0.17,
+          "freq_hz": 377.187
+        },
+        {
+          "time_s": 0.37,
+          "freq_hz": 513.273
+        }
+      ],
+      "audacity_label": {
+        "start": 0.163689,
+        "end": 0.378911,
+        "note": "P1: FLAT TIGHT | DOWN SHORT FAST TIGHT, FLAT TIGHT"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.385975,
+          "freq_hz": 708.0083
+        },
+        {
+          "time_s": 0.407918,
+          "freq_hz": 891.566
+        },
+        {
+          "time_s": 0.460337,
+          "freq_hz": 1075.1237
+        },
+        {
+          "time_s": 0.6,
+          "freq_hz": 1087.603
+        },
+        {
+          "time_s": 0.727309,
+          "freq_hz": 1127.5687
+        }
+      ],
+      "audacity_label": {
+        "start": 0.378911,
+        "end": 0.721446,
+        "note": "P2: UP T SHORT, FLAT"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

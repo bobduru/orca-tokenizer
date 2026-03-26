@@ -1,0 +1,82 @@
+{
+  "filename": "N07iv-D1-1",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.275836\t0.389126\tP1: BLUR\n0.389126\t0.711756\tP2: UP FAST T SHORT, PEAK, FLAT\n0.416217\t0.416217\tmax\n0.711756\t0.849674\tP3: UP SPACED\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "too tight",
+      "points": [
+        {
+          "time_s": 0.28,
+          "freq_hz": 329.628
+        },
+        {
+          "time_s": 0.365839,
+          "freq_hz": 316.1744
+        }
+      ],
+      "audacity_label": {
+        "start": 0.275836,
+        "end": 0.389126,
+        "note": "P1: BLUR"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.371082,
+          "freq_hz": 843.1316
+        },
+        {
+          "time_s": 0.411277,
+          "freq_hz": 1317.3932
+        },
+        {
+          "time_s": 0.432248,
+          "freq_hz": 1264.6974
+        },
+        {
+          "time_s": 0.493413,
+          "freq_hz": 1238.3496
+        },
+        {
+          "time_s": 0.729338,
+          "freq_hz": 1264.6974
+        }
+      ],
+      "audacity_label": {
+        "start": 0.389126,
+        "end": 0.711756,
+        "note": "P2: UP FAST T SHORT, PEAK, FLAT"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.697881,
+          "freq_hz": 3109.0479
+        },
+        {
+          "time_s": 0.800989,
+          "freq_hz": 4136.6146
+        },
+        {
+          "time_s": 0.846427,
+          "freq_hz": 6481.5744
+        }
+      ],
+      "audacity_label": {
+        "start": 0.711756,
+        "end": 0.849674,
+        "note": "P3: UP SPACED"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

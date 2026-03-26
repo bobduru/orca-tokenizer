@@ -1,0 +1,59 @@
+{
+  "filename": "N08ii-D1-1",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.223046\t0.431703\tP1: VERTICAL UP\n0.441296\t0.738692\tP2: TIGHT DOWN, TIGHT FLAT\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "VERTICAL",
+      "points": [
+        {
+          "time_s": 0.23,
+          "freq_hz": 224.248
+        },
+        {
+          "time_s": 0.43,
+          "freq_hz": 192.26
+        }
+      ],
+      "audacity_label": {
+        "start": 0.223046,
+        "end": 0.431703,
+        "note": "P1: VERTICAL UP"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.448257,
+          "freq_hz": 367.1154
+        },
+        {
+          "time_s": 0.487489,
+          "freq_hz": 367.1154
+        },
+        {
+          "time_s": 0.531247,
+          "freq_hz": 249.114
+        },
+        {
+          "time_s": 0.59,
+          "freq_hz": 251.705
+        },
+        {
+          "time_s": 0.73,
+          "freq_hz": 256.0
+        }
+      ],
+      "audacity_label": {
+        "start": 0.441296,
+        "end": 0.738692,
+        "note": "P2: TIGHT DOWN, TIGHT FLAT"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

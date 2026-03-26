@@ -1,0 +1,94 @@
+{
+  "filename": "N24i-I11-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.070110\t0.070110\tNOTE: VERY MESSY\n0.246682\t0.457012\tP1: FLAT NORMAL\n0.457012\t1.002309\tP2: UP SPACED, FLAT SPACED\n1.002309\t1.241202\tP3: DOWN NORMAL\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.25,
+          "freq_hz": 783.991
+        },
+        {
+          "time_s": 0.35,
+          "freq_hz": 846.751
+        },
+        {
+          "time_s": 0.43882,
+          "freq_hz": 922.1752
+        }
+      ],
+      "audacity_label": {
+        "start": 0.246682,
+        "end": 0.457012,
+        "note": "P1: FLAT NORMAL"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.451812,
+          "freq_hz": 1396.4368
+        },
+        {
+          "time_s": 0.50811,
+          "freq_hz": 1712.6111
+        },
+        {
+          "time_s": 0.56,
+          "freq_hz": 1838.4632
+        },
+        {
+          "time_s": 0.679169,
+          "freq_hz": 1818.0026
+        },
+        {
+          "time_s": 0.778774,
+          "freq_hz": 1791.6547
+        },
+        {
+          "time_s": 0.89,
+          "freq_hz": 1814.0042
+        },
+        {
+          "time_s": 0.99747,
+          "freq_hz": 1818.0026
+        }
+      ],
+      "audacity_label": {
+        "start": 0.457012,
+        "end": 1.002309,
+        "note": "P2: UP SPACED, FLAT SPACED"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 1.01,
+          "freq_hz": 1046.496
+        },
+        {
+          "time_s": 1.12,
+          "freq_hz": 897.108
+        },
+        {
+          "time_s": 1.218331,
+          "freq_hz": 658.6966
+        }
+      ],
+      "audacity_label": {
+        "start": 1.002309,
+        "end": 1.241202,
+        "note": "P3: DOWN NORMAL"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

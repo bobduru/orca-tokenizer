@@ -1,0 +1,51 @@
+{
+  "filename": "N46-I31-1",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.272889\t0.525105\tP1: PEAK LEFT NORMAL\n0.351448\t0.351448\tmax\n0.554048\t0.700830\tP2: BLUR\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.28,
+          "freq_hz": 890.781
+        },
+        {
+          "time_s": 0.4,
+          "freq_hz": 846.757
+        },
+        {
+          "time_s": 0.52,
+          "freq_hz": 484.32
+        }
+      ],
+      "audacity_label": {
+        "start": 0.272889,
+        "end": 0.525105,
+        "note": "P1: PEAK LEFT NORMAL"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 0.570853,
+          "freq_hz": 236.0028
+        },
+        {
+          "time_s": 0.705477,
+          "freq_hz": 236.0028
+        }
+      ],
+      "audacity_label": {
+        "start": 0.554048,
+        "end": 0.70083,
+        "note": "P2: BLUR"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

@@ -1,0 +1,36 @@
+{
+  "filename": "N53-R1-1",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.470396,
+          "freq_hz": 260.9838
+        },
+        {
+          "time_s": 0.517726,
+          "freq_hz": 287.0822
+        },
+        {
+          "time_s": 0.562098,
+          "freq_hz": 469.7709
+        },
+        {
+          "time_s": 0.665632,
+          "freq_hz": 548.066
+        },
+        {
+          "time_s": 1.544193,
+          "freq_hz": 574.1644
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

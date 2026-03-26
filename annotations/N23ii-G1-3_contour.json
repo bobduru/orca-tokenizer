@@ -1,0 +1,79 @@
+{
+  "filename": "N23ii-G1-3",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.073397\t0.073397\tNOTE: VERY ECHOEY\n0.239221\t0.489315\tBIPHO: PEAK LEFT\n0.239221\t0.513781\tP1: UP SHORT SPACED, FLAT SPACED\n0.513781\t1.057464\tP2: DOWN T SHORT, FLAT, DOWN T SHORT\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.239957,
+          "freq_hz": 1411.4989
+        },
+        {
+          "time_s": 0.28267,
+          "freq_hz": 1635.3116
+        },
+        {
+          "time_s": 0.380302,
+          "freq_hz": 1691.2648
+        },
+        {
+          "time_s": 0.502342,
+          "freq_hz": 1616.6605
+        },
+        {
+          "time_s": 0.54353,
+          "freq_hz": 1243.6394
+        }
+      ],
+      "audacity_label": {
+        "start": 0.239221,
+        "end": 0.513781,
+        "note": "P1: UP SHORT SPACED, FLAT SPACED"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.551158,
+          "freq_hz": 1187.6862
+        },
+        {
+          "time_s": 0.62,
+          "freq_hz": 1197.494
+        },
+        {
+          "time_s": 0.73,
+          "freq_hz": 1174.659
+        },
+        {
+          "time_s": 0.83,
+          "freq_hz": 1174.659
+        },
+        {
+          "time_s": 0.94,
+          "freq_hz": 1174.659
+        },
+        {
+          "time_s": 1.016434,
+          "freq_hz": 1113.082
+        },
+        {
+          "time_s": 1.053046,
+          "freq_hz": 740.0608
+        }
+      ],
+      "audacity_label": {
+        "start": 0.513781,
+        "end": 1.057464,
+        "note": "P2: DOWN T SHORT, FLAT, DOWN T SHORT"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

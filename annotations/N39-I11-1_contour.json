@@ -1,0 +1,51 @@
+{
+  "filename": "N39-I11-1",
+  "general_notes": "faint",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.095406,
+          "freq_hz": 835.1482
+        },
+        {
+          "time_s": 0.368132,
+          "freq_hz": 861.2466
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.374475,
+          "freq_hz": 1704.4644
+        },
+        {
+          "time_s": 0.432614,
+          "freq_hz": 944.011
+        },
+        {
+          "time_s": 0.464327,
+          "freq_hz": 839.1209
+        },
+        {
+          "time_s": 0.518238,
+          "freq_hz": 1520.9067
+        },
+        {
+          "time_s": 0.554178,
+          "freq_hz": 2596.0303
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

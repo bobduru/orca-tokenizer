@@ -1,0 +1,32 @@
+{
+  "filename": "N24ii-I11-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.019000\t0.019000\tNOTE: I don't understand why this is an N24\n0.056999\t0.322128\tP1: FLAT NORMAL\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.057249,
+          "freq_hz": 678.5579
+        },
+        {
+          "time_s": 0.19,
+          "freq_hz": 698.456
+        },
+        {
+          "time_s": 0.303378,
+          "freq_hz": 704.6563
+        }
+      ],
+      "audacity_label": {
+        "start": 0.056999,
+        "end": 0.322128,
+        "note": "P1: FLAT NORMAL"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

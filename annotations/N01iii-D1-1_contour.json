@@ -1,0 +1,102 @@
+{
+  "filename": "N01iii-D1-1",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.080324\t0.363062\tP1: VERTICAL\n0.363062\t0.459451\tP2: BLUR NOISY\n0.459451\t0.589880\tBIPHO: DOWN\n0.459451\t1.188788\tP3: PEAK LEFT, FLAT\n0.500693\t0.500693\tmax\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 0.09,
+          "freq_hz": 208.484
+        },
+        {
+          "time_s": 0.22,
+          "freq_hz": 183.666
+        },
+        {
+          "time_s": 0.3758,
+          "freq_hz": 872.0661
+        }
+      ],
+      "audacity_label": {
+        "start": 0.080324,
+        "end": 0.363062,
+        "note": "P1: VERTICAL"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "NOISY",
+      "points": [
+        {
+          "time_s": 0.368454,
+          "freq_hz": 391.8706
+        },
+        {
+          "time_s": 0.43457,
+          "freq_hz": 411.8787
+        }
+      ],
+      "audacity_label": {
+        "start": 0.363062,
+        "end": 0.459451,
+        "note": "P2: BLUR NOISY"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.454773,
+          "freq_hz": 491.9113
+        },
+        {
+          "time_s": 0.489668,
+          "freq_hz": 1052.1394
+        },
+        {
+          "time_s": 0.519053,
+          "freq_hz": 1052.1394
+        },
+        {
+          "time_s": 0.563131,
+          "freq_hz": 651.9765
+        },
+        {
+          "time_s": 0.66,
+          "freq_hz": 646.683
+        },
+        {
+          "time_s": 0.76,
+          "freq_hz": 634.351
+        },
+        {
+          "time_s": 0.87,
+          "freq_hz": 646.683
+        },
+        {
+          "time_s": 0.97,
+          "freq_hz": 646.683
+        },
+        {
+          "time_s": 1.07,
+          "freq_hz": 646.683
+        },
+        {
+          "time_s": 1.18,
+          "freq_hz": 659.255
+        }
+      ],
+      "audacity_label": {
+        "start": 0.459451,
+        "end": 1.188788,
+        "note": "P3: PEAK LEFT, FLAT"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

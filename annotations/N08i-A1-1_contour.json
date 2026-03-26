@@ -1,0 +1,55 @@
+{
+  "filename": "N08i-A1-1",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.278955\t0.836864\tP1: VERTICAL UP\n0.836864\t1.009550\tP2: PEAK LEFT TIGHT, DOWN TIGHT\n0.880036\t0.880036\tmax\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "VERTICAL",
+      "points": [
+        {
+          "time_s": 0.28,
+          "freq_hz": 146.832
+        },
+        {
+          "time_s": 0.83,
+          "freq_hz": 377.187
+        }
+      ],
+      "audacity_label": {
+        "start": 0.278955,
+        "end": 0.836864,
+        "note": "P1: VERTICAL UP"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.833588,
+          "freq_hz": 380.2267
+        },
+        {
+          "time_s": 0.87692,
+          "freq_hz": 419.5605
+        },
+        {
+          "time_s": 0.929672,
+          "freq_hz": 354.0041
+        },
+        {
+          "time_s": 0.988075,
+          "freq_hz": 249.114
+        }
+      ],
+      "audacity_label": {
+        "start": 0.836864,
+        "end": 1.00955,
+        "note": "P2: PEAK LEFT TIGHT, DOWN TIGHT"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

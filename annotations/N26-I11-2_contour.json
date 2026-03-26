@@ -1,0 +1,105 @@
+{
+  "filename": "N26-I11-2",
+  "general_notes": "faint",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.000000\t0.212802\tP1: BLUR\n0.074875\t0.074875\tNOTE: High NOISE\n0.212802\t0.350729\tP2: TIGHT FLAT\n0.350729\t0.474864\tP3: SPACED UP\n0.474864\t0.748050\tP4: BLUR\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "too tight",
+      "points": [
+        {
+          "time_s": 0.0,
+          "freq_hz": 342.568
+        },
+        {
+          "time_s": 0.1,
+          "freq_hz": 349.228
+        },
+        {
+          "time_s": 0.21,
+          "freq_hz": 349.228
+        }
+      ],
+      "audacity_label": {
+        "start": 0.0,
+        "end": 0.212802,
+        "note": "P1: BLUR"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.219238,
+          "freq_hz": 476.5392
+        },
+        {
+          "time_s": 0.263226,
+          "freq_hz": 503.0136
+        },
+        {
+          "time_s": 0.346803,
+          "freq_hz": 476.5392
+        }
+      ],
+      "audacity_label": {
+        "start": 0.212802,
+        "end": 0.350729,
+        "note": "P2: TIGHT FLAT"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.361099,
+          "freq_hz": 1720.8361
+        },
+        {
+          "time_s": 0.441378,
+          "freq_hz": 1853.2081
+        },
+        {
+          "time_s": 0.47107,
+          "freq_hz": 1800.2593
+        }
+      ],
+      "audacity_label": {
+        "start": 0.350729,
+        "end": 0.474864,
+        "note": "P3: SPACED UP"
+      }
+    },
+    {
+      "label": "P4",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.48,
+          "freq_hz": 931.305
+        },
+        {
+          "time_s": 0.609632,
+          "freq_hz": 900.1297
+        },
+        {
+          "time_s": 0.669566,
+          "freq_hz": 873.6553
+        },
+        {
+          "time_s": 0.7295,
+          "freq_hz": 847.1809
+        }
+      ],
+      "audacity_label": {
+        "start": 0.474864,
+        "end": 0.74805,
+        "note": "P4: BLUR"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

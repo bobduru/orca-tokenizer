@@ -1,0 +1,63 @@
+{
+  "filename": "N28-G1-1",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.440406,
+          "freq_hz": 1487.6077
+        },
+        {
+          "time_s": 0.872768,
+          "freq_hz": 1547.1292
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.878241,
+          "freq_hz": 1520.9067
+        },
+        {
+          "time_s": 0.930234,
+          "freq_hz": 655.5632
+        },
+        {
+          "time_s": 0.979491,
+          "freq_hz": 458.8943
+        },
+        {
+          "time_s": 1.03422,
+          "freq_hz": 708.0083
+        },
+        {
+          "time_s": 1.069794,
+          "freq_hz": 2019.1347
+        },
+        {
+          "time_s": 1.110841,
+          "freq_hz": 2360.0276
+        },
+        {
+          "time_s": 1.203881,
+          "freq_hz": 2491.1402
+        },
+        {
+          "time_s": 1.225773,
+          "freq_hz": 2871.3669
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

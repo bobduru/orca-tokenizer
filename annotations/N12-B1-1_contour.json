@@ -1,0 +1,70 @@
+{
+  "filename": "N12-B1-1",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.108876\t0.215735\tP1: BLUR, GAP, FLAT TIGHT\n0.215735\t0.629059\tP3: FLAT TIGHT\n0.629059\t0.731886\tP3: UP TIGHT\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.16681,
+          "freq_hz": 474.2615
+        },
+        {
+          "time_s": 0.215299,
+          "freq_hz": 447.9137
+        }
+      ],
+      "audacity_label": {
+        "start": 0.108876,
+        "end": 0.215735,
+        "note": "P1: BLUR, GAP, FLAT TIGHT"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.234156,
+          "freq_hz": 223.9568
+        },
+        {
+          "time_s": 0.329788,
+          "freq_hz": 223.9568
+        },
+        {
+          "time_s": 0.618029,
+          "freq_hz": 223.9568
+        }
+      ],
+      "audacity_label": {
+        "start": 0.215735,
+        "end": 0.629059,
+        "note": "P3: FLAT TIGHT"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.642274,
+          "freq_hz": 526.9573
+        },
+        {
+          "time_s": 0.728477,
+          "freq_hz": 1356.915
+        }
+      ],
+      "audacity_label": {
+        "start": 0.629059,
+        "end": 0.731886,
+        "note": "P3: UP TIGHT"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

@@ -1,0 +1,40 @@
+{
+  "filename": "N41-G1-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.072168\t0.072168\tNOTE: NOISY\n0.486554\t0.845067\tP4: UP FAST SHORT NORMAL, FLAT NORMAL\n",
+  "parts": [
+    {
+      "label": "P4",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.485468,
+          "freq_hz": 548.066
+        },
+        {
+          "time_s": 0.521937,
+          "freq_hz": 809.0498
+        },
+        {
+          "time_s": 0.569506,
+          "freq_hz": 965.6401
+        },
+        {
+          "time_s": 0.658301,
+          "freq_hz": 913.4433
+        },
+        {
+          "time_s": 0.846989,
+          "freq_hz": 939.5417
+        }
+      ],
+      "audacity_label": {
+        "start": 0.486554,
+        "end": 0.845067,
+        "note": "P4: UP FAST SHORT NORMAL, FLAT NORMAL"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

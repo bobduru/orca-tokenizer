@@ -1,0 +1,71 @@
+{
+  "filename": "N05i-H1-2",
+  "general_notes": "P1 has a section with biphonation with half the f0",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.098996\t0.098996\tNOTE: halving PRR right after peak briefly?\n0.154433\t0.245509\tEXTRA: NOISY\n0.245509\t0.902840\tP1: PEAK, UP SLOW\n0.293027\t0.293027\tmax\n0.902840\t0.962238\tP2: FLAT\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.25,
+          "freq_hz": 1197.495
+        },
+        {
+          "time_s": 0.293054,
+          "freq_hz": 1363.5715
+        },
+        {
+          "time_s": 0.336752,
+          "freq_hz": 1206.2363
+        },
+        {
+          "time_s": 0.46,
+          "freq_hz": 1244.508
+        },
+        {
+          "time_s": 0.57,
+          "freq_hz": 1270.439
+        },
+        {
+          "time_s": 0.68,
+          "freq_hz": 1310.644
+        },
+        {
+          "time_s": 0.79,
+          "freq_hz": 1321.414
+        },
+        {
+          "time_s": 0.9,
+          "freq_hz": 1396.93
+        }
+      ],
+      "audacity_label": {
+        "start": 0.245509,
+        "end": 0.90284,
+        "note": "P1: PEAK, UP SLOW"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.914762,
+          "freq_hz": 878.4547
+        },
+        {
+          "time_s": 0.952501,
+          "freq_hz": 826.0097
+        }
+      ],
+      "audacity_label": {
+        "start": 0.90284,
+        "end": 0.962238,
+        "note": "P2: FLAT"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

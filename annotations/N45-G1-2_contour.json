@@ -1,0 +1,48 @@
+{
+  "filename": "N45-G1-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.477193\t1.051115\tP1: DOWN NORMAL, UP SHORT\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.489407,
+          "freq_hz": 1174.4271
+        },
+        {
+          "time_s": 0.568261,
+          "freq_hz": 1043.9352
+        },
+        {
+          "time_s": 0.745152,
+          "freq_hz": 991.7385
+        },
+        {
+          "time_s": 0.930567,
+          "freq_hz": 965.6401
+        },
+        {
+          "time_s": 0.992372,
+          "freq_hz": 965.6401
+        },
+        {
+          "time_s": 1.037127,
+          "freq_hz": 991.7385
+        },
+        {
+          "time_s": 1.056308,
+          "freq_hz": 1174.4271
+        }
+      ],
+      "audacity_label": {
+        "start": 0.477193,
+        "end": 1.051115,
+        "note": "P1: DOWN NORMAL, UP SHORT"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

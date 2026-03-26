@@ -1,0 +1,56 @@
+{
+  "filename": "N05i-A1-5",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.324395\t1.127657\tP1: PEAK, UP SLOW\n0.360438\t0.360438\tmax\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.298314,
+          "freq_hz": 730.7547
+        },
+        {
+          "time_s": 0.352174,
+          "freq_hz": 1174.4271
+        },
+        {
+          "time_s": 0.378106,
+          "freq_hz": 1070.0336
+        },
+        {
+          "time_s": 0.493805,
+          "freq_hz": 1096.132
+        },
+        {
+          "time_s": 0.66,
+          "freq_hz": 1130.305
+        },
+        {
+          "time_s": 0.78,
+          "freq_hz": 1174.659
+        },
+        {
+          "time_s": 0.89,
+          "freq_hz": 1220.775
+        },
+        {
+          "time_s": 1.0,
+          "freq_hz": 1318.511
+        },
+        {
+          "time_s": 1.12,
+          "freq_hz": 1451.754
+        }
+      ],
+      "audacity_label": {
+        "start": 0.324395,
+        "end": 1.127657,
+        "note": "P1: PEAK, UP SLOW"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

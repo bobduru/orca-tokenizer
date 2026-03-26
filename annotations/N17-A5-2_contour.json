@@ -1,0 +1,132 @@
+{
+  "filename": "N17-A5-2",
+  "general_notes": "john ford parts don't really make sense",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.060693\t0.060693\tNOTE: Hard to tell if I split it up matched to Ford, particularly P3 and P4\n0.198940\t0.330442\tP1: FLAT BLUR\n0.330442\t0.795758\tP2: SQUIGGLE NORMAL | UP FAST T SHORT NORMAL, LEFT PEAK NORMAL, VALLEY NORMAL\n0.350673\t0.350673\tmin\n0.414738\t0.414738\tmax\n0.731693\t0.731693\tmin\n0.775527\t0.876683\tP3: PEAK RIGHT NORMAL\n0.876683\t1.028416\tP4: UP, PEAK\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "too tight",
+      "points": [
+        {
+          "time_s": 0.214802,
+          "freq_hz": 476.1061
+        },
+        {
+          "time_s": 0.33,
+          "freq_hz": 543.794
+        }
+      ],
+      "audacity_label": {
+        "start": 0.19894,
+        "end": 0.330442,
+        "note": "P1: FLAT BLUR"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.34,
+          "freq_hz": 533.424
+        },
+        {
+          "time_s": 0.387046,
+          "freq_hz": 1074.6976
+        },
+        {
+          "time_s": 0.45,
+          "freq_hz": 1293.366
+        },
+        {
+          "time_s": 0.56,
+          "freq_hz": 1197.495
+        },
+        {
+          "time_s": 0.67,
+          "freq_hz": 1026.545
+        },
+        {
+          "time_s": 0.735768,
+          "freq_hz": 839.5367
+        },
+        {
+          "time_s": 0.79,
+          "freq_hz": 987.767
+        }
+      ],
+      "audacity_label": {
+        "start": 0.330442,
+        "end": 0.795758,
+        "note": "P2: SQUIGGLE NORMAL | UP FAST T SHORT NORMAL, LEFT PEAK NORMAL, VALLEY NORMAL"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.793653,
+          "freq_hz": 989.1846
+        },
+        {
+          "time_s": 0.833184,
+          "freq_hz": 1245.7238
+        },
+        {
+          "time_s": 0.858597,
+          "freq_hz": 1074.6976
+        },
+        {
+          "time_s": 0.87,
+          "freq_hz": 672.072
+        }
+      ],
+      "audacity_label": {
+        "start": 0.775527,
+        "end": 0.876683,
+        "note": "P3: PEAK RIGHT NORMAL"
+      }
+    },
+    {
+      "label": "P4",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.88,
+          "freq_hz": 672.072
+        },
+        {
+          "time_s": 0.932013,
+          "freq_hz": 796.7801
+        }
+      ],
+      "audacity_label": {
+        "start": 0.876683,
+        "end": 1.028416,
+        "note": "P4: UP, PEAK"
+      }
+    },
+    {
+      "label": "P5",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.944684,
+          "freq_hz": 1513.4062
+        },
+        {
+          "time_s": 0.978886,
+          "freq_hz": 1710.7188
+        },
+        {
+          "time_s": 1.023087,
+          "freq_hz": 1541.5937
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

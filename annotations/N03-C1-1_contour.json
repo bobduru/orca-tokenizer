@@ -1,0 +1,82 @@
+{
+  "filename": "N03-C1-1",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.039588\t0.039588\tNOTE: n3 better fits ford catalogue \n0.221228\t0.258487\tP1: BLUR\n0.258487\t0.291089\tP2: GAP\n0.291089\t0.824365\tP3: DOWN FAST TIGHT, DOWN TIGHT\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 0.23,
+          "freq_hz": 483.701
+        },
+        {
+          "time_s": 0.25,
+          "freq_hz": 475.187
+        }
+      ],
+      "audacity_label": {
+        "start": 0.221228,
+        "end": 0.258487,
+        "note": "P1: BLUR"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "gap",
+      "points": [
+        {
+          "time_s": 0.26,
+          "freq_hz": 475.229
+        },
+        {
+          "time_s": 0.29,
+          "freq_hz": 146.832
+        }
+      ],
+      "audacity_label": {
+        "start": 0.258487,
+        "end": 0.291089,
+        "note": "P2: GAP"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.3,
+          "freq_hz": 725.877
+        },
+        {
+          "time_s": 0.39392,
+          "freq_hz": 416.0249
+        },
+        {
+          "time_s": 0.5,
+          "freq_hz": 384.52
+        },
+        {
+          "time_s": 0.61,
+          "freq_hz": 349.228
+        },
+        {
+          "time_s": 0.71,
+          "freq_hz": 299.374
+        },
+        {
+          "time_s": 0.819516,
+          "freq_hz": 235.9516
+        }
+      ],
+      "audacity_label": {
+        "start": 0.291089,
+        "end": 0.824365,
+        "note": "P3: DOWN FAST TIGHT, DOWN TIGHT"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

@@ -1,0 +1,59 @@
+{
+  "filename": "N40-I11-1",
+  "general_notes": "special call with special beginning, and doesn't sound tonal, even though f0 is high, maybe vertical biphonation ?",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.188906,
+          "freq_hz": 1539.8045
+        },
+        {
+          "time_s": 0.225137,
+          "freq_hz": 1722.4931
+        },
+        {
+          "time_s": 0.308254,
+          "freq_hz": 1096.132
+        },
+        {
+          "time_s": 0.355141,
+          "freq_hz": 1409.3126
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.357272,
+          "freq_hz": 708.0083
+        },
+        {
+          "time_s": 0.40629,
+          "freq_hz": 970.2336
+        },
+        {
+          "time_s": 0.470226,
+          "freq_hz": 1048.9012
+        },
+        {
+          "time_s": 0.809088,
+          "freq_hz": 1101.3462
+        },
+        {
+          "time_s": 0.922042,
+          "freq_hz": 1337.349
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

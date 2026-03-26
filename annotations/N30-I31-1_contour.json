@@ -1,0 +1,83 @@
+{
+  "filename": "N30-I31-1",
+  "general_notes": "HARD to label",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.415667\t0.667934\tP1: UP SPACED, FLAT SPACED\n0.667934\t1.413268\tP2: SQUIGGLE\n0.774437\t0.774437\tmax\n0.852385\t0.852385\tmin\n0.934534\t0.934534\tmax\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.426647,
+          "freq_hz": 1206.2363
+        },
+        {
+          "time_s": 0.454182,
+          "freq_hz": 1730.6869
+        },
+        {
+          "time_s": 0.489978,
+          "freq_hz": 1888.0221
+        },
+        {
+          "time_s": 0.556062,
+          "freq_hz": 1756.9094
+        },
+        {
+          "time_s": 0.608379,
+          "freq_hz": 1756.9094
+        },
+        {
+          "time_s": 0.655189,
+          "freq_hz": 1992.9122
+        }
+      ],
+      "audacity_label": {
+        "start": 0.415667,
+        "end": 0.667934,
+        "note": "P1: UP SPACED, FLAT SPACED"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "UPSQUIGGLE",
+      "points": [
+        {
+          "time_s": 0.66345,
+          "freq_hz": 681.7857
+        },
+        {
+          "time_s": 0.699245,
+          "freq_hz": 603.1182
+        },
+        {
+          "time_s": 0.737795,
+          "freq_hz": 681.7857
+        },
+        {
+          "time_s": 0.803879,
+          "freq_hz": 629.3407
+        },
+        {
+          "time_s": 0.845182,
+          "freq_hz": 734.2308
+        },
+        {
+          "time_s": 0.911267,
+          "freq_hz": 734.2308
+        },
+        {
+          "time_s": 1.390379,
+          "freq_hz": 734.2308
+        }
+      ],
+      "audacity_label": {
+        "start": 0.667934,
+        "end": 1.413268,
+        "note": "P2: SQUIGGLE"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

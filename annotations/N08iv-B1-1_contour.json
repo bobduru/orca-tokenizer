@@ -1,0 +1,43 @@
+{
+  "filename": "N08iv-B1-1",
+  "general_notes": "faint",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "vertical",
+      "points": [
+        {
+          "time_s": 0.221923,
+          "freq_hz": 1618.0996
+        },
+        {
+          "time_s": 0.561424,
+          "freq_hz": 1644.198
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.572497,
+          "freq_hz": 553.5576
+        },
+        {
+          "time_s": 0.618762,
+          "freq_hz": 655.5632
+        },
+        {
+          "time_s": 0.736456,
+          "freq_hz": 419.5605
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

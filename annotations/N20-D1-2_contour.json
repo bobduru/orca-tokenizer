@@ -1,0 +1,52 @@
+{
+  "filename": "N20-D1-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.177837\t0.728558\tP1: PEAK NORMAL | TIGHT UP, PEAK NORMAL, TIGHT DOWN\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.187235,
+          "freq_hz": 182.6887
+        },
+        {
+          "time_s": 0.28,
+          "freq_hz": 384.52
+        },
+        {
+          "time_s": 0.39,
+          "freq_hz": 754.375
+        },
+        {
+          "time_s": 0.447277,
+          "freq_hz": 861.2466
+        },
+        {
+          "time_s": 0.5,
+          "freq_hz": 863.218
+        },
+        {
+          "time_s": 0.560521,
+          "freq_hz": 756.853
+        },
+        {
+          "time_s": 0.61,
+          "freq_hz": 610.388
+        },
+        {
+          "time_s": 0.701726,
+          "freq_hz": 260.9838
+        }
+      ],
+      "audacity_label": {
+        "start": 0.177837,
+        "end": 0.728558,
+        "note": "P1: PEAK NORMAL | TIGHT UP, PEAK NORMAL, TIGHT DOWN"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

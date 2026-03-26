@@ -1,0 +1,55 @@
+{
+  "filename": "N07i-A5-3",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.344340\t0.539118\tP1: FLAT TIGHT | VALLEY TIGHT\n0.556509\t1.568660\tP2: UP T SHORT FAST, FLAT\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "too tight",
+      "points": [
+        {
+          "time_s": 0.344476,
+          "freq_hz": 288.4478
+        },
+        {
+          "time_s": 0.54157,
+          "freq_hz": 262.2253
+        }
+      ],
+      "audacity_label": {
+        "start": 0.34434,
+        "end": 0.539118,
+        "note": "P1: FLAT TIGHT | VALLEY TIGHT"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.56,
+          "freq_hz": 133.356
+        },
+        {
+          "time_s": 0.637654,
+          "freq_hz": 1284.9039
+        },
+        {
+          "time_s": 0.704173,
+          "freq_hz": 1363.5715
+        },
+        {
+          "time_s": 1.563996,
+          "freq_hz": 1416.0166
+        }
+      ],
+      "audacity_label": {
+        "start": 0.556509,
+        "end": 1.56866,
+        "note": "P2: UP T SHORT FAST, FLAT"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

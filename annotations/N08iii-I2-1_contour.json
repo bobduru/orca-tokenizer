@@ -1,0 +1,59 @@
+{
+  "filename": "N08iii-I2-1",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.323109\t0.639091\tP1: VERTICAL UP\n0.669976\t0.919436\tP2: PEAK LEFT NORMAL\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "VERTICAL",
+      "points": [
+        {
+          "time_s": 0.33,
+          "freq_hz": 466.164
+        },
+        {
+          "time_s": 0.619069,
+          "freq_hz": 629.3407
+        }
+      ],
+      "audacity_label": {
+        "start": 0.323109,
+        "end": 0.639091,
+        "note": "P1: VERTICAL UP"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.659886,
+          "freq_hz": 812.8984
+        },
+        {
+          "time_s": 0.687098,
+          "freq_hz": 970.2336
+        },
+        {
+          "time_s": 0.739576,
+          "freq_hz": 760.4533
+        },
+        {
+          "time_s": 0.797886,
+          "freq_hz": 629.3407
+        },
+        {
+          "time_s": 0.912562,
+          "freq_hz": 603.1182
+        }
+      ],
+      "audacity_label": {
+        "start": 0.669976,
+        "end": 0.919436,
+        "note": "P2: PEAK LEFT NORMAL"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

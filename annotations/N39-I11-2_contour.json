@@ -1,0 +1,67 @@
+{
+  "filename": "N39-I11-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.152782\t0.484140\tP1: FLAT NORMAL, DOWN NORMAL\n0.585333\t0.662717\tP2: UP NORMAL\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.161499,
+          "freq_hz": 917.7885
+        },
+        {
+          "time_s": 0.26,
+          "freq_hz": 950.45
+        },
+        {
+          "time_s": 0.37,
+          "freq_hz": 932.328
+        },
+        {
+          "time_s": 0.416136,
+          "freq_hz": 1127.5687
+        },
+        {
+          "time_s": 0.477941,
+          "freq_hz": 524.4506
+        }
+      ],
+      "audacity_label": {
+        "start": 0.152782,
+        "end": 0.48414,
+        "note": "P1: FLAT NORMAL, DOWN NORMAL"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.576829,
+          "freq_hz": 1389.794
+        },
+        {
+          "time_s": 0.606495,
+          "freq_hz": 2333.8051
+        },
+        {
+          "time_s": 0.649759,
+          "freq_hz": 2963.1458
+        },
+        {
+          "time_s": 0.66212,
+          "freq_hz": 5532.9536
+        }
+      ],
+      "audacity_label": {
+        "start": 0.585333,
+        "end": 0.662717,
+        "note": "P2: UP NORMAL"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

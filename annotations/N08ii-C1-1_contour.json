@@ -1,0 +1,59 @@
+{
+  "filename": "N08ii-C1-1",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.000000\t0.119488\tNote: weird up tone at the end, unsure if part of call\n0.391739\t0.676847\tP1: VERTICAL\n0.676847\t1.000523\tP2:FLAT\n1.023967\t1.124549\tEXTRA: UP FAST SPACED\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.4,
+          "freq_hz": 195.997
+        },
+        {
+          "time_s": 0.68697,
+          "freq_hz": 209.3045
+        }
+      ],
+      "audacity_label": {
+        "start": 0.391739,
+        "end": 0.676847,
+        "note": "P1: VERTICAL"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "hard to label",
+      "points": [
+        {
+          "time_s": 0.706918,
+          "freq_hz": 266.3876
+        },
+        {
+          "time_s": 0.743489,
+          "freq_hz": 266.3876
+        },
+        {
+          "time_s": 0.778399,
+          "freq_hz": 247.3599
+        },
+        {
+          "time_s": 0.8931,
+          "freq_hz": 256.8738
+        },
+        {
+          "time_s": 0.989516,
+          "freq_hz": 256.8738
+        }
+      ],
+      "audacity_label": {
+        "start": 0.676847,
+        "end": 1.000523,
+        "note": "P2:FLAT"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

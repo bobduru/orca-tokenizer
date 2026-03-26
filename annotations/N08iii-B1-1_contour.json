@@ -1,0 +1,63 @@
+{
+  "filename": "N08iii-B1-1",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.237652\t0.422064\tP1: VERTICAL\n0.432867\t0.628853\tP2: LEFT PEAK, FLAT\n0.469132\t0.469132\tmax\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "VERTICAL",
+      "points": [
+        {
+          "time_s": 0.316029,
+          "freq_hz": 419.5605
+        },
+        {
+          "time_s": 0.570495,
+          "freq_hz": 537.5618
+        }
+      ],
+      "audacity_label": {
+        "start": 0.237652,
+        "end": 0.422064,
+        "note": "P1: VERTICAL"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.587459,
+          "freq_hz": 563.7844
+        },
+        {
+          "time_s": 0.621388,
+          "freq_hz": 852.2322
+        },
+        {
+          "time_s": 0.641745,
+          "freq_hz": 878.4547
+        },
+        {
+          "time_s": 0.702817,
+          "freq_hz": 668.6745
+        },
+        {
+          "time_s": 0.767282,
+          "freq_hz": 576.8956
+        },
+        {
+          "time_s": 0.853801,
+          "freq_hz": 576.8956
+        }
+      ],
+      "audacity_label": {
+        "start": 0.432867,
+        "end": 0.628853,
+        "note": "P2: LEFT PEAK, FLAT"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

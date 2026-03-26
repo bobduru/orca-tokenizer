@@ -1,0 +1,112 @@
+{
+  "filename": "N09iii-A5-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.052058\t0.052058\tNOTE: P2 is confusing, like biphonated\n0.117501\t0.344399\tP1: BLUR\n0.344806\t0.425823\tP2: UP FAST\n0.425823\t0.821731\tP3: UP SPACED\n0.821731\t0.965834\tP4: BLUR, UP FAST SHORT NORMAL\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "too tight",
+      "points": [
+        {
+          "time_s": 0.118235,
+          "freq_hz": 397.116
+        },
+        {
+          "time_s": 0.34,
+          "freq_hz": 362.939
+        }
+      ],
+      "audacity_label": {
+        "start": 0.117501,
+        "end": 0.344399,
+        "note": "P1: BLUR"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.362983,
+          "freq_hz": 688.3345
+        },
+        {
+          "time_s": 0.4149,
+          "freq_hz": 741.2833
+        }
+      ],
+      "audacity_label": {
+        "start": 0.344806,
+        "end": 0.425823,
+        "note": "P2: UP FAST"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.4149,
+          "freq_hz": 741.2833
+        },
+        {
+          "time_s": 0.439622,
+          "freq_hz": 1403.1433
+        },
+        {
+          "time_s": 0.543454,
+          "freq_hz": 1694.3617
+        },
+        {
+          "time_s": 0.817868,
+          "freq_hz": 1985.5802
+        }
+      ],
+      "audacity_label": {
+        "start": 0.425823,
+        "end": 0.821731,
+        "note": "P3: UP SPACED"
+      }
+    },
+    {
+      "label": "P4",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 0.830229,
+          "freq_hz": 661.8601
+        },
+        {
+          "time_s": 0.90934,
+          "freq_hz": 661.8601
+        }
+      ],
+      "audacity_label": {
+        "start": 0.821731,
+        "end": 0.965834,
+        "note": "P4: BLUR, UP FAST SHORT NORMAL"
+      }
+    },
+    {
+      "label": "P5",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.916757,
+          "freq_hz": 1037.4843
+        },
+        {
+          "time_s": 0.958784,
+          "freq_hz": 1064.0865
+        },
+        {
+          "time_s": 0.966201,
+          "freq_hz": 1436.5167
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

@@ -1,0 +1,63 @@
+{
+  "filename": "N08i-A5-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.252369\t0.739703\tP1: VERTICAL\n0.739703\t1.089974\tP2: PEAK LEFT TIGHT, DOWN TIGHT\n0.813673\t0.813673\tmax\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "VERTICAL",
+      "points": [
+        {
+          "time_s": 0.26,
+          "freq_hz": 118.806
+        },
+        {
+          "time_s": 0.73,
+          "freq_hz": 146.831
+        }
+      ],
+      "audacity_label": {
+        "start": 0.252369,
+        "end": 0.739703,
+        "note": "P1: VERTICAL"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.74,
+          "freq_hz": 146.832
+        },
+        {
+          "time_s": 0.769788,
+          "freq_hz": 354.0041
+        },
+        {
+          "time_s": 0.801671,
+          "freq_hz": 380.2267
+        },
+        {
+          "time_s": 0.863562,
+          "freq_hz": 354.0041
+        },
+        {
+          "time_s": 0.942331,
+          "freq_hz": 288.4478
+        },
+        {
+          "time_s": 1.086742,
+          "freq_hz": 222.8915
+        }
+      ],
+      "audacity_label": {
+        "start": 0.739703,
+        "end": 1.089974,
+        "note": "P2: PEAK LEFT TIGHT, DOWN TIGHT"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

@@ -1,0 +1,70 @@
+{
+  "filename": "N09i-A1-1",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.329071\t0.571710\tP1: BLUR\n0.558172\t1.295458\tBIPHO: UP FAST, FLAT\n0.575875\t0.642522\tP2: TIGHT FLAT\n0.647729\t1.310038\tP3: UP SLOW\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "too tight",
+      "points": [
+        {
+          "time_s": 0.33,
+          "freq_hz": 282.566
+        },
+        {
+          "time_s": 0.545415,
+          "freq_hz": 223.9568
+        }
+      ],
+      "audacity_label": {
+        "start": 0.329071,
+        "end": 0.57171,
+        "note": "P1: BLUR"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.595677,
+          "freq_hz": 790.4359
+        },
+        {
+          "time_s": 0.625378,
+          "freq_hz": 790.4359
+        }
+      ],
+      "audacity_label": {
+        "start": 0.575875,
+        "end": 0.642522,
+        "note": "P2: TIGHT FLAT"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.648224,
+          "freq_hz": 1238.3496
+        },
+        {
+          "time_s": 0.924668,
+          "freq_hz": 1475.4804
+        },
+        {
+          "time_s": 1.30392,
+          "freq_hz": 1554.5239
+        }
+      ],
+      "audacity_label": {
+        "start": 0.647729,
+        "end": 1.310038,
+        "note": "P3: UP SLOW"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

@@ -1,0 +1,67 @@
+{
+  "filename": "N02-A1-2",
+  "general_notes": "P1 decided by maddie could have been longer",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.042581\t0.042581\tNOTE: there is a very significant extra bit at the beginning here\n0.090986\t0.674811\tEXTRA: VERTICAL\n0.420809\t0.485257\tEXTRA: TIGHT FLAT\n0.674811\t1.100308\tBIPHO: VALLEY, UP\n0.674811\t0.769587\tP1: UP NORMAL\n0.707741\t0.707741\tmin bipho\n0.769587\t1.383741\tP2: SQUIGGLE UP NORMAL\n0.835219\t0.835219\tmin\n0.987187\t0.987187\tmax\n1.124680\t1.124680\tmin\n1.383741\t1.514730\tP3: UP FAST\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.689002,
+          "freq_hz": 331.8461
+        },
+        {
+          "time_s": 0.7547,
+          "freq_hz": 431.8869
+        }
+      ],
+      "audacity_label": {
+        "start": 0.674811,
+        "end": 0.769587,
+        "note": "P1: UP NORMAL"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.77,
+          "freq_hz": 1026.546
+        },
+        {
+          "time_s": 0.87,
+          "freq_hz": 1006.973
+        },
+        {
+          "time_s": 0.97,
+          "freq_hz": 1197.495
+        },
+        {
+          "time_s": 1.07,
+          "freq_hz": 1087.587
+        },
+        {
+          "time_s": 1.16099,
+          "freq_hz": 1012.1231
+        },
+        {
+          "time_s": 1.27,
+          "freq_hz": 1152.258
+        },
+        {
+          "time_s": 1.502404,
+          "freq_hz": 1681.1001
+        }
+      ],
+      "audacity_label": {
+        "start": 0.769587,
+        "end": 1.383741,
+        "note": "P2: SQUIGGLE UP NORMAL"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

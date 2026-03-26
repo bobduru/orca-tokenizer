@@ -1,0 +1,86 @@
+{
+  "filename": "N21-B1-1",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.226635\t0.226635\tNOTE: P3 noisy blur, I think is more like noise plus a whistle?\n0.488523\t0.624504\tP1: VERTICAL\n0.624504\t0.798257\tP2: PEAK NORMAL\n0.798257\t0.936756\tP3: NOISY BLUR\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "too tight",
+      "points": [
+        {
+          "time_s": 0.49,
+          "freq_hz": 546.846
+        },
+        {
+          "time_s": 0.62,
+          "freq_hz": 475.226
+        }
+      ],
+      "audacity_label": {
+        "start": 0.488523,
+        "end": 0.624504,
+        "note": "P1: VERTICAL"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.63,
+          "freq_hz": 513.276
+        },
+        {
+          "time_s": 0.664805,
+          "freq_hz": 1080.2624
+        },
+        {
+          "time_s": 0.714113,
+          "freq_hz": 1132.9581
+        },
+        {
+          "time_s": 0.755202,
+          "freq_hz": 869.4795
+        },
+        {
+          "time_s": 0.79,
+          "freq_hz": 543.794
+        }
+      ],
+      "audacity_label": {
+        "start": 0.624504,
+        "end": 0.798257,
+        "note": "P2: PEAK NORMAL"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "noisy",
+      "points": [
+        {
+          "time_s": 0.800401,
+          "freq_hz": 1686.2633
+        },
+        {
+          "time_s": 0.812728,
+          "freq_hz": 1738.959
+        },
+        {
+          "time_s": 0.847654,
+          "freq_hz": 1580.8718
+        },
+        {
+          "time_s": 0.903125,
+          "freq_hz": 1659.9154
+        }
+      ],
+      "audacity_label": {
+        "start": 0.798257,
+        "end": 0.936756,
+        "note": "P3: NOISY BLUR"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

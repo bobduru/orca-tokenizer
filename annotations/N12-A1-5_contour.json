@@ -1,0 +1,90 @@
+{
+  "filename": "N12-A1-5",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.353587\t0.520823\tP1: BLUR SHORT, TIGHT DOWN SHORT\n0.520823\t1.648478\tP2: TIGHT DOWN SLOW | PEAK TIGHT, TIGHT DOWN SLOW\n0.597275\t0.597275\tmax\n1.648478\t1.744042\tP3: TIGHT UP\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.356215,
+          "freq_hz": 421.5658
+        },
+        {
+          "time_s": 0.429255,
+          "freq_hz": 566.4791
+        },
+        {
+          "time_s": 0.502296,
+          "freq_hz": 355.6962
+        }
+      ],
+      "audacity_label": {
+        "start": 0.353587,
+        "end": 0.520823,
+        "note": "P1: BLUR SHORT, TIGHT DOWN SHORT"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.536087,
+          "freq_hz": 230.7804
+        },
+        {
+          "time_s": 0.596641,
+          "freq_hz": 243.7177
+        },
+        {
+          "time_s": 0.782286,
+          "freq_hz": 210.7829
+        },
+        {
+          "time_s": 1.263138,
+          "freq_hz": 184.435
+        },
+        {
+          "time_s": 1.439653,
+          "freq_hz": 144.9132
+        },
+        {
+          "time_s": 1.549214,
+          "freq_hz": 151.5002
+        },
+        {
+          "time_s": 1.610081,
+          "freq_hz": 177.8481
+        }
+      ],
+      "audacity_label": {
+        "start": 0.520823,
+        "end": 1.648478,
+        "note": "P2: TIGHT DOWN SLOW | PEAK TIGHT, TIGHT DOWN SLOW"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 1.65,
+          "freq_hz": 195.998
+        },
+        {
+          "time_s": 1.743989,
+          "freq_hz": 329.3483
+        }
+      ],
+      "audacity_label": {
+        "start": 1.648478,
+        "end": 1.744042,
+        "note": "P3: TIGHT UP"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

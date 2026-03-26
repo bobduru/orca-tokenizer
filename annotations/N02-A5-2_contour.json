@@ -1,0 +1,102 @@
+{
+  "filename": "N02-A5-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.069086\t0.186739\tEXTRA: NOISY\n0.186739\t0.752450\tBIPHO: VALLEY FLAT\n0.186739\t0.241663\tP1: TIGHT FLAT\n0.212741\t0.212741\tmin bipho\n0.241663\t0.790896\tP2: UP SQUIGGLE\n0.367986\t0.367986\tmax\n0.464102\t0.464102\tmin\n0.590426\t0.590426\tmax\n0.790896\t0.851312\tP3: UP SHORT FAST\n1.019644\t1.019644\tNOTE: I'm a bit confused what the biphonation is here and confused about extra first bit\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.192896,
+          "freq_hz": 474.2615
+        },
+        {
+          "time_s": 0.23003,
+          "freq_hz": 461.0876
+        }
+      ],
+      "audacity_label": {
+        "start": 0.186739,
+        "end": 0.241663,
+        "note": "P1: TIGHT FLAT"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.25,
+          "freq_hz": 1026.545
+        },
+        {
+          "time_s": 0.300923,
+          "freq_hz": 1080.2624
+        },
+        {
+          "time_s": 0.329617,
+          "freq_hz": 1370.0889
+        },
+        {
+          "time_s": 0.368439,
+          "freq_hz": 1594.0457
+        },
+        {
+          "time_s": 0.43258,
+          "freq_hz": 1370.0889
+        },
+        {
+          "time_s": 0.466338,
+          "freq_hz": 1304.2192
+        },
+        {
+          "time_s": 0.510224,
+          "freq_hz": 1343.741
+        },
+        {
+          "time_s": 0.57,
+          "freq_hz": 1567.982
+        },
+        {
+          "time_s": 0.619939,
+          "freq_hz": 1659.9154
+        },
+        {
+          "time_s": 0.734717,
+          "freq_hz": 1686.2633
+        },
+        {
+          "time_s": 0.79,
+          "freq_hz": 1726.601
+        }
+      ],
+      "audacity_label": {
+        "start": 0.241663,
+        "end": 0.790896,
+        "note": "P2: UP SQUIGGLE"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.79717,
+          "freq_hz": 1765.3069
+        },
+        {
+          "time_s": 0.842744,
+          "freq_hz": 2608.4385
+        }
+      ],
+      "audacity_label": {
+        "start": 0.790896,
+        "end": 0.851312,
+        "note": "P3: UP SHORT FAST"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

@@ -1,0 +1,51 @@
+{
+  "filename": "N08i-A1-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.000000\t0.064738\tNote: P1 goes from vertical to blur\n0.115089\t0.606617\tP1: VERTICAL, BLUR\n0.612012\t0.797834\tP2: TIGHT FLAT\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "BLUR | VERTICAL",
+      "points": [
+        {
+          "time_s": 0.12,
+          "freq_hz": 287.31
+        },
+        {
+          "time_s": 0.581304,
+          "freq_hz": 340.8929
+        }
+      ],
+      "audacity_label": {
+        "start": 0.115089,
+        "end": 0.606617,
+        "note": "P1: VERTICAL, BLUR"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.590494,
+          "freq_hz": 445.783
+        },
+        {
+          "time_s": 0.694207,
+          "freq_hz": 445.783
+        },
+        {
+          "time_s": 0.790043,
+          "freq_hz": 393.3379
+        }
+      ],
+      "audacity_label": {
+        "start": 0.612012,
+        "end": 0.797834,
+        "note": "P2: TIGHT FLAT"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

@@ -1,0 +1,97 @@
+{
+  "filename": "N05ii-B1-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.293044\t0.451609\tBIPHO: UP FAST, PEAK\n0.350295\t0.350295\tmax bipho\n0.350295\t1.038031\tP1: UP SLOW\n1.038031\t1.124801\tP2: BLUR NOISY\n1.124801\t1.170946\tP3: SPACED UP FAST\n1.170946\t1.211527\tP4: DOWN TIGHT\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.343257,
+          "freq_hz": 1006.0273
+        },
+        {
+          "time_s": 0.448419,
+          "freq_hz": 1138.3993
+        },
+        {
+          "time_s": 0.639026,
+          "freq_hz": 1217.8225
+        },
+        {
+          "time_s": 1.031194,
+          "freq_hz": 1323.7201
+        }
+      ],
+      "audacity_label": {
+        "start": 0.350295,
+        "end": 1.038031,
+        "note": "P1: UP SLOW"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 1.04,
+          "freq_hz": 251.742
+        },
+        {
+          "time_s": 1.101302,
+          "freq_hz": 344.1672
+        }
+      ],
+      "audacity_label": {
+        "start": 1.038031,
+        "end": 1.124801,
+        "note": "P2: BLUR NOISY"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 1.107875,
+          "freq_hz": 2700.389
+        },
+        {
+          "time_s": 1.153883,
+          "freq_hz": 5427.2524
+        },
+        {
+          "time_s": 1.186747,
+          "freq_hz": 2806.2866
+        }
+      ],
+      "audacity_label": {
+        "start": 1.124801,
+        "end": 1.170946,
+        "note": "P3: SPACED UP FAST"
+      }
+    },
+    {
+      "label": "P4",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 1.18,
+          "freq_hz": 141.286
+        },
+        {
+          "time_s": 1.21,
+          "freq_hz": 178.007
+        }
+      ],
+      "audacity_label": {
+        "start": 1.170946,
+        "end": 1.211527,
+        "note": "P4: DOWN TIGHT"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

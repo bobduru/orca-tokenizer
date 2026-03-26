@@ -1,0 +1,51 @@
+{
+  "filename": "N27-A1-1",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.000000\t0.066292\tNote: BAD\n0.438107\t0.613926\tP1: BLUR | NOISY\n0.554359\t0.843548\tBIPHO: UP FAST, FLAT, DOWN SHORT\n0.619691\t0.843548\tP2: FLAT, DOWN SHORT\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 0.44,
+          "freq_hz": 139.265
+        },
+        {
+          "time_s": 0.61826,
+          "freq_hz": 183.5577
+        }
+      ],
+      "audacity_label": {
+        "start": 0.438107,
+        "end": 0.613926,
+        "note": "P1: BLUR | NOISY"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.643527,
+          "freq_hz": 917.7885
+        },
+        {
+          "time_s": 0.776182,
+          "freq_hz": 983.3448
+        },
+        {
+          "time_s": 0.833034,
+          "freq_hz": 708.0083
+        }
+      ],
+      "audacity_label": {
+        "start": 0.619691,
+        "end": 0.843548,
+        "note": "P2: FLAT, DOWN SHORT"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

@@ -1,0 +1,98 @@
+{
+  "filename": "N12-I1,I2,I18-1",
+  "general_notes": "P1 had gap",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.222241\t0.384856\tP1: BLUR NOISY SHORT, GAP, DOWN NORMAL\n0.384856\t0.867282\tP2: DOWN SLOW TIGHT\n0.907935\t1.070551\tP3: VALLEY TIGHT, PEAK NORMAL\n0.954572\t0.954572\tmin\n1.031689\t1.031689\tmax\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.21384,
+          "freq_hz": 571.9439
+        },
+        {
+          "time_s": 0.277588,
+          "freq_hz": 551.9358
+        },
+        {
+          "time_s": 0.294853,
+          "freq_hz": 551.9358
+        },
+        {
+          "time_s": 0.37985,
+          "freq_hz": 491.9113
+        }
+      ],
+      "audacity_label": {
+        "start": 0.222241,
+        "end": 0.384856,
+        "note": "P1: BLUR NOISY SHORT, GAP, DOWN NORMAL"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "too tight",
+      "points": [
+        {
+          "time_s": 0.39,
+          "freq_hz": 543.75
+        },
+        {
+          "time_s": 0.496721,
+          "freq_hz": 551.9358
+        },
+        {
+          "time_s": 0.62,
+          "freq_hz": 484.451
+        },
+        {
+          "time_s": 0.74,
+          "freq_hz": 457.334
+        },
+        {
+          "time_s": 0.86,
+          "freq_hz": 533.464
+        }
+      ],
+      "audacity_label": {
+        "start": 0.384856,
+        "end": 0.867282,
+        "note": "P2: DOWN SLOW TIGHT"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.911082,
+          "freq_hz": 511.9195
+        },
+        {
+          "time_s": 0.960221,
+          "freq_hz": 531.9276
+        },
+        {
+          "time_s": 0.993423,
+          "freq_hz": 691.9928
+        },
+        {
+          "time_s": 1.021312,
+          "freq_hz": 752.0172
+        },
+        {
+          "time_s": 1.061155,
+          "freq_hz": 712.0009
+        }
+      ],
+      "audacity_label": {
+        "start": 0.907935,
+        "end": 1.070551,
+        "note": "P3: VALLEY TIGHT, PEAK NORMAL"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

@@ -1,0 +1,70 @@
+{
+  "filename": "N08iv-I1,I2,I18-1",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.226212\t0.226212\tNOTE: first instinct was to combine P2 and P3 into a squiggle\n0.300566\t0.594597\tP1: VERTICAL\n0.604583\t0.687860\tP2: PEAK NORMAL\n0.651225\t0.651225\tmax\n0.675188\t0.838534\tP3: TIGHT SQUIGGLE\n0.718744\t0.718744\tmin\n0.786262\t0.786262\tmax\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "VERTICAL",
+      "points": [
+        {
+          "time_s": 0.31,
+          "freq_hz": 431.609
+        },
+        {
+          "time_s": 0.59,
+          "freq_hz": 896.631
+        }
+      ],
+      "audacity_label": {
+        "start": 0.300566,
+        "end": 0.594597,
+        "note": "P1: VERTICAL"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.61,
+          "freq_hz": 554.365
+        },
+        {
+          "time_s": 0.659324,
+          "freq_hz": 606.0009
+        },
+        {
+          "time_s": 0.712229,
+          "freq_hz": 474.2615
+        }
+      ],
+      "audacity_label": {
+        "start": 0.604583,
+        "end": 0.68786,
+        "note": "P2: PEAK NORMAL"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 0.719526,
+          "freq_hz": 474.2615
+        },
+        {
+          "time_s": 0.827161,
+          "freq_hz": 553.3051
+        }
+      ],
+      "audacity_label": {
+        "start": 0.675188,
+        "end": 0.838534,
+        "note": "P3: TIGHT SQUIGGLE"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

@@ -1,0 +1,74 @@
+{
+  "filename": "N52-R1-1",
+  "general_notes": "no john ford",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "VERTICAL",
+      "points": [
+        {
+          "time_s": 0.033584,
+          "freq_hz": 548.066
+        },
+        {
+          "time_s": 0.794323,
+          "freq_hz": 287.0822
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.816215,
+          "freq_hz": 314.6703
+        },
+        {
+          "time_s": 0.85635,
+          "freq_hz": 303.0004
+        },
+        {
+          "time_s": 0.909255,
+          "freq_hz": 340.8929
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.916552,
+          "freq_hz": 579.653
+        },
+        {
+          "time_s": 0.958511,
+          "freq_hz": 1001.2188
+        },
+        {
+          "time_s": 1.004119,
+          "freq_hz": 922.1752
+        },
+        {
+          "time_s": 1.036957,
+          "freq_hz": 1027.5667
+        },
+        {
+          "time_s": 1.073443,
+          "freq_hz": 1027.5667
+        },
+        {
+          "time_s": 1.104456,
+          "freq_hz": 1080.2624
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

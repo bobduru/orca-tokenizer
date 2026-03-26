@@ -1,0 +1,83 @@
+{
+  "filename": "N32i-R1-2",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.069420\t0.069420\tNOTE: There's a kind of noise before the P2 peak, not sure what to call that\n0.265282\t1.073525\tBIPHO: UP T FAST SHORT, UP SLOW\n0.332223\t1.073525\tP1: UP NORMAL, UP SPACED\n1.073525\t1.247074\tP2: PEAK SPACED\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.335227,
+          "freq_hz": 367.1154
+        },
+        {
+          "time_s": 0.383204,
+          "freq_hz": 498.228
+        },
+        {
+          "time_s": 0.44,
+          "freq_hz": 565.142
+        },
+        {
+          "time_s": 0.54,
+          "freq_hz": 651.612
+        },
+        {
+          "time_s": 0.623093,
+          "freq_hz": 812.8984
+        },
+        {
+          "time_s": 0.783019,
+          "freq_hz": 1678.2418
+        },
+        {
+          "time_s": 0.933806,
+          "freq_hz": 2700.9205
+        },
+        {
+          "time_s": 1.082309,
+          "freq_hz": 3146.7035
+        }
+      ],
+      "audacity_label": {
+        "start": 0.332223,
+        "end": 1.073525,
+        "note": "P1: UP NORMAL, UP SPACED"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 1.082309,
+          "freq_hz": 3172.926
+        },
+        {
+          "time_s": 1.089163,
+          "freq_hz": 3671.154
+        },
+        {
+          "time_s": 1.128002,
+          "freq_hz": 4064.492
+        },
+        {
+          "time_s": 1.178264,
+          "freq_hz": 6372.0745
+        },
+        {
+          "time_s": 1.228527,
+          "freq_hz": 2727.143
+        }
+      ],
+      "audacity_label": {
+        "start": 1.073525,
+        "end": 1.247074,
+        "note": "P2: PEAK SPACED"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

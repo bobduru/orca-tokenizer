@@ -1,0 +1,47 @@
+{
+  "filename": "N08i-A4-1",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "too tight",
+      "points": [
+        {
+          "time_s": 0.252229,
+          "freq_hz": 1539.8045
+        },
+        {
+          "time_s": 0.549882,
+          "freq_hz": 1409.3126
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.557763,
+          "freq_hz": 369.9999
+        },
+        {
+          "time_s": 0.612931,
+          "freq_hz": 445.783
+        },
+        {
+          "time_s": 0.678914,
+          "freq_hz": 367.1154
+        },
+        {
+          "time_s": 0.741963,
+          "freq_hz": 314.6703
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

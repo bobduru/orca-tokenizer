@@ -1,0 +1,66 @@
+{
+  "filename": "N41-G1-4",
+  "general_notes": "",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.135762\t0.135762\tNOTE: very noisy\n0.423743\t0.592417\tP1: BLUR\n0.851599\t0.931840\tP2: TIGHT\n0.963757\t1.064094\tP3: BLUR\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 0.43,
+          "freq_hz": 155.337
+        },
+        {
+          "time_s": 0.59,
+          "freq_hz": 181.232
+        }
+      ],
+      "audacity_label": {
+        "start": 0.423743,
+        "end": 0.592417,
+        "note": "P1: BLUR"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.871592,
+          "freq_hz": 223.9568
+        },
+        {
+          "time_s": 0.91188,
+          "freq_hz": 223.9568
+        }
+      ],
+      "audacity_label": {
+        "start": 0.851599,
+        "end": 0.93184,
+        "note": "P2: TIGHT"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.978238,
+          "freq_hz": 329.3483
+        },
+        {
+          "time_s": 1.035115,
+          "freq_hz": 447.9137
+        }
+      ],
+      "audacity_label": {
+        "start": 0.963757,
+        "end": 1.064094,
+        "note": "P3: BLUR"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

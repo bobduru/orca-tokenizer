@@ -1,0 +1,105 @@
+{
+  "filename": "N33-R1-1",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "BLUR",
+      "points": [
+        {
+          "time_s": 0.23552,
+          "freq_hz": 313.1806
+        },
+        {
+          "time_s": 0.481717,
+          "freq_hz": 260.9838
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.533548,
+          "freq_hz": 1232.4589
+        },
+        {
+          "time_s": 0.626844,
+          "freq_hz": 1704.4644
+        },
+        {
+          "time_s": 0.681267,
+          "freq_hz": 655.5632
+        },
+        {
+          "time_s": 0.75383,
+          "freq_hz": 708.0083
+        },
+        {
+          "time_s": 0.78752,
+          "freq_hz": 970.2336
+        },
+        {
+          "time_s": 0.83,
+          "freq_hz": 863.726
+        },
+        {
+          "time_s": 0.883407,
+          "freq_hz": 812.8984
+        },
+        {
+          "time_s": 0.950788,
+          "freq_hz": 996.4561
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.958562,
+          "freq_hz": 1132.9581
+        },
+        {
+          "time_s": 1.023351,
+          "freq_hz": 2002.4376
+        },
+        {
+          "time_s": 1.119238,
+          "freq_hz": 2608.4385
+        },
+        {
+          "time_s": 1.279914,
+          "freq_hz": 2924.6128
+        },
+        {
+          "time_s": 1.427633,
+          "freq_hz": 3056.3522
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P4",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 1.428104,
+          "freq_hz": 3073.9428
+        },
+        {
+          "time_s": 1.450957,
+          "freq_hz": 4394.7507
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

@@ -1,0 +1,59 @@
+{
+  "filename": "N23ii-G1-4",
+  "general_notes": "",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.860586,
+          "freq_hz": 1714.1752
+        },
+        {
+          "time_s": 0.930013,
+          "freq_hz": 1940.4671
+        },
+        {
+          "time_s": 1.038491,
+          "freq_hz": 1635.8801
+        },
+        {
+          "time_s": 1.363927,
+          "freq_hz": 1652.0193
+        },
+        {
+          "time_s": 1.485423,
+          "freq_hz": 1180.0138
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 1.489762,
+          "freq_hz": 1153.7913
+        },
+        {
+          "time_s": 1.85425,
+          "freq_hz": 1022.6786
+        },
+        {
+          "time_s": 2.032154,
+          "freq_hz": 891.566
+        },
+        {
+          "time_s": 2.188363,
+          "freq_hz": 603.1182
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}

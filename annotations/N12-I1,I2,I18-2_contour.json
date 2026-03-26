@@ -1,0 +1,98 @@
+{
+  "filename": "N12-I1,I2,I18-2",
+  "general_notes": "P1 has a gap inside",
+  "had_audacity_labels": true,
+  "audacity_label_txt": "0.028505\t0.028505\tNOTE: Is P1 just water noise?\n0.145378\t0.236596\tP1: VERTICAL\n0.236596\t0.880819\tP2: FLAT TIGHT\n0.880819\t1.006244\tP3: PEAK RIGHT NORMAL | UP NORMAL\n0.974888\t0.974888\tmax\n",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.15,
+          "freq_hz": 439.834
+        },
+        {
+          "time_s": 0.224009,
+          "freq_hz": 411.8787
+        }
+      ],
+      "audacity_label": {
+        "start": 0.145378,
+        "end": 0.236596,
+        "note": "P1: VERTICAL"
+      }
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.24,
+          "freq_hz": 349.229
+        },
+        {
+          "time_s": 0.335944,
+          "freq_hz": 331.8461
+        },
+        {
+          "time_s": 0.45,
+          "freq_hz": 336.036
+        },
+        {
+          "time_s": 0.56,
+          "freq_hz": 342.264
+        },
+        {
+          "time_s": 0.66,
+          "freq_hz": 336.036
+        },
+        {
+          "time_s": 0.77,
+          "freq_hz": 342.569
+        },
+        {
+          "time_s": 0.88,
+          "freq_hz": 336.036
+        }
+      ],
+      "audacity_label": {
+        "start": 0.236596,
+        "end": 0.880819,
+        "note": "P2: FLAT TIGHT"
+      }
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 0.89,
+          "freq_hz": 336.036
+        },
+        {
+          "time_s": 0.917733,
+          "freq_hz": 812.0417
+        },
+        {
+          "time_s": 0.953663,
+          "freq_hz": 1092.1557
+        },
+        {
+          "time_s": 0.97301,
+          "freq_hz": 1112.1639
+        },
+        {
+          "time_s": 1.003412,
+          "freq_hz": 1092.1557
+        }
+      ],
+      "audacity_label": {
+        "start": 0.880819,
+        "end": 1.006244,
+        "note": "P3: PEAK RIGHT NORMAL | UP NORMAL"
+      }
+    }
+  ],
+  "unassigned_points": []
+}

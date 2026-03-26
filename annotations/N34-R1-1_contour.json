@@ -1,0 +1,70 @@
+{
+  "filename": "N34-R1-1",
+  "general_notes": "Faint",
+  "had_audacity_labels": false,
+  "audacity_label_txt": "",
+  "parts": [
+    {
+      "label": "P1",
+      "notes": "VERTICAL",
+      "points": [
+        {
+          "time_s": 0.295987,
+          "freq_hz": 991.7385
+        },
+        {
+          "time_s": 1.009464,
+          "freq_hz": 944.011
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P2",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 1.035175,
+          "freq_hz": 1101.3462
+        },
+        {
+          "time_s": 1.121949,
+          "freq_hz": 1468.4616
+        },
+        {
+          "time_s": 1.324423,
+          "freq_hz": 1468.4616
+        }
+      ],
+      "audacity_label": null
+    },
+    {
+      "label": "P3",
+      "notes": "",
+      "points": [
+        {
+          "time_s": 1.337013,
+          "freq_hz": 1465.2047
+        },
+        {
+          "time_s": 1.398341,
+          "freq_hz": 619.1748
+        },
+        {
+          "time_s": 1.475474,
+          "freq_hz": 619.1748
+        },
+        {
+          "time_s": 1.57189,
+          "freq_hz": 750.9141
+        },
+        {
+          "time_s": 1.61367,
+          "freq_hz": 895.8274
+        }
+      ],
+      "audacity_label": null
+    }
+  ],
+  "unassigned_points": []
+}
