@@ -23,15 +23,14 @@ _audio_index = {
 
 
 # ── part type detection ───────────────────────────────────────────────────────
-_PART_TYPE_KEYWORDS = ["too tight", "blur", "vertical", "gap"]
+_PART_TYPE_KEYWORDS = ["TOO TIGHT", "BLUR", "VERTICAL", "GAP"]
 
 def _detect_part_type(notes: str) -> str:
-    """Return 'too tight' | 'blur' | 'vertical' | 'gap' | 'precise'."""
-    notes_lower = notes.lower()
+    """Return 'TOO TIGHT' | 'BLUR' | 'VERTICAL' | 'GAP' | 'PRECISE'."""
     for kw in _PART_TYPE_KEYWORDS:
-        if kw in notes_lower:
+        if kw in notes.upper():
             return kw
-    return "precise"
+    return "PRECISE"
 
 
 # ── audio lookup ──────────────────────────────────────────────────────────────
@@ -48,8 +47,8 @@ def load_contour(filename: str) -> dict | None:
     Returns the parsed dict with a 'parts_parsed' key added:
         parts_parsed: list of dicts with 'label', 'notes', 'type', 'times', 'freqs'
 
-    'type' is one of: 'precise' | 'too tight' | 'blur' | 'vertical' | 'gap'
-    For non-precise parts, points are time markers only; frequency is unreliable.
+    'type' is one of: 'PRECISE' | 'TOO TIGHT' | 'BLUR' | 'VERTICAL' | 'GAP'
+    For non-PRECISE parts, points are time markers only; frequency is unreliable.
 
     Returns None if the contour is marked for skipping.
     """
@@ -101,8 +100,17 @@ def load_all_contours() -> list[dict]:
     return contours
 
 
+cycle = [c["color"] for c in plt.rcParams["axes.prop_cycle"]]
+
 # ── plotting ──────────────────────────────────────────────────────────────────
 _PART_COLORS = [
+    cycle[0],
+    cycle[1],
+    cycle[2],
+    cycle[3],
+    cycle[4],
+    cycle[5],
+    cycle[6],
     "#1f77b4",  # blue
     "#2ca02c",  # green
     "#d62728",  # red
@@ -123,6 +131,7 @@ def plot_contour(
     n_fft: int = 1024,
     hop_length: int = 128,
     figsize: tuple = (14, 5),
+    cmap_spectrogram: str = "magma",
 ) -> None:
     """
     Plot the annotated contour.
@@ -173,7 +182,7 @@ def plot_contour(
                 librosa.amplitude_to_db(S, ref=np.max),
                 sr=sr, n_fft=n_fft, hop_length=hop_length,
                 x_axis="time", y_axis="linear",
-                ax=ax, cmap="magma",
+                ax=ax, cmap=cmap_spectrogram,
             )
             ax.set_ylim(0, sr / 2)
             ax.set_xlim(t_start - pad_t, t_end + pad_t)
@@ -192,9 +201,9 @@ def plot_contour(
             freqs_h = part["freqs"] * h
             alpha   = 1.0 if h == 1 else max(0.3, 1.0 - 0.4 * (h - 1))
             lw      = 2   if h == 1 else 1
-            ax.plot(part["times"], freqs_h, color=color, linewidth=lw, alpha=alpha, zorder=3)
+            ax.plot(part["times"], freqs_h, color=color, linewidth=lw, alpha=alpha, zorder=3, marker="o", markersize=4)
             if h == 1:
-                ax.scatter(part["times"], freqs_h, color=color, s=40, zorder=4)
+                # ax.scatter(part["times"], freqs_h, color=color, s=40, zorder=4)
                 ax.annotate(
                     part["label"],
                     xy=(part["times"][0], freqs_h[0]),
@@ -244,11 +253,11 @@ def _draw_segment_bar(
     ax.set_ylim(0, 1)
     ax.axis("off")
 
-    legend_patches = [
-        mpatches.Patch(color=c, label=l)
-        for l, c in _SEG_COLORS.items()
-    ]
-    ax.legend(handles=legend_patches, loc="center right", fontsize=7, framealpha=0.8)
+    # legend_patches = [
+    #     mpatches.Patch(color=c, label=l)
+    #     for l, c in _SEG_COLORS.items()
+    # ]
+    # ax.legend(handles=legend_patches, loc="center right", fontsize=7, framealpha=0.8)
 
 
 # ── segment classification ────────────────────────────────────────────────────
@@ -334,6 +343,7 @@ def _runs_to_segments(
             "slope":       delta_f / delta_t if delta_t > 0 else 0.0,
             "abs_delta_f": abs(delta_f),
             "label":       label,
+            "points":      list(zip(times[start : end + 1], freqs[start : end + 1])),
         })
     return segments
 
@@ -349,8 +359,8 @@ def classify_segments(
     """
     Classify contour parts into segments.
 
-    For 'precise' parts: see _runs_to_segments.
-    For non-precise parts ('too tight', 'blur', 'vertical', 'gap'): emit one
+    For 'PRECISE' parts: see _runs_to_segments.
+    For non-PRECISE parts ('too tight', 'blur', 'vertical', 'gap'): emit one
     segment spanning the whole part with label = part type. Frequency is ignored.
 
     Parameters
@@ -370,7 +380,7 @@ def classify_segments(
         if len(times) < 2:
             continue
 
-        if part_type != "precise":
+        if part_type != "PRECISE":
             segments.append({
                 "t_start":     times[0],
                 "t_end":       times[-1],
@@ -382,7 +392,9 @@ def classify_segments(
                 "abs_delta_f": None,
                 "label":       part_type,
                 "part_label":  part["label"],
+                "part_notes":  part["notes"],
                 "part_type":   part_type,
+                "points":      list(zip(times, freqs)),
             })
             continue
 
@@ -395,6 +407,7 @@ def classify_segments(
         )
         for seg in part_segs:
             seg["part_label"] = part["label"]
+            seg["part_notes"] = part["notes"]
             seg["part_type"]  = part_type
         segments.extend(part_segs)
 
@@ -414,6 +427,16 @@ def segments_to_token_string(segments: list[dict]) -> str:
     return "-".join(labels)
 
 
+# ── point helpers ─────────────────────────────────────────────────────────────
+def _merge_points(segs: list[dict]) -> list[tuple]:
+    """Concatenate points from a list of segments, deduplicating shared endpoints."""
+    result = []
+    for k, s in enumerate(segs):
+        pts = s["points"]
+        result.extend(pts if k == 0 else pts[1:])
+    return result
+
+
 # ── second-order classification ───────────────────────────────────────────────
 def parse_second_order(
     segments: list[dict],
@@ -427,7 +450,7 @@ def parse_second_order(
     VALLEY: DOWN [FLAT...] UP   — same tolerance
 
     Rules:
-      - Only 'precise' segments participate.
+      - Only 'PRECISE' segments participate.
       - Matches never cross part boundaries.
       - Matched groups are collapsed into one segment; the original sub-segments
         are preserved under 'sub_segments' in case the detail is needed later.
@@ -439,7 +462,7 @@ def parse_second_order(
         seg   = segments[i]
         label = seg["label"]
 
-        if label not in ("UP", "DOWN") or seg.get("part_type") != "precise":
+        if label not in ("UP", "DOWN") or seg.get("part_type") != "PRECISE":
             result.append(seg)
             i += 1
             continue
@@ -471,10 +494,14 @@ def parse_second_order(
             result.append({
                 "t_start":      group[0]["t_start"],
                 "t_end":        group[-1]["t_end"],
+                "f_start":      group[0]["f_start"],
+                "f_end":        group[-1]["f_end"],
                 "delta_t":      group[-1]["t_end"] - group[0]["t_start"],
                 "label":        out_label,
                 "part_label":   group[0]["part_label"],
                 "part_type":    group[0]["part_type"],
+                "part_notes":   group[0]["part_notes"],
+                "points":       _merge_points(group),
                 "sub_segments": group,
             })
             i = j + 1
@@ -493,7 +520,7 @@ def parse_third_order(segments: list[dict]) -> list[dict]:
     If a part contains more than 2 PEAK/VALLEY segments (counted together),
     the entire part is collapsed into a single SQUIGGLE segment.
 
-    Non-precise parts are passed through unchanged.
+    Non-PRECISE parts are passed through unchanged.
     """
     from collections import defaultdict
 
@@ -517,10 +544,14 @@ def parse_third_order(segments: list[dict]) -> list[dict]:
             result.append({
                 "t_start":      sub[0]["t_start"],
                 "t_end":        sub[-1]["t_end"],
+                "f_start":      sub[0]["f_start"],
+                "f_end":        sub[-1]["f_end"],
                 "delta_t":      sub[-1]["t_end"] - sub[0]["t_start"],
                 "label":        "SQUIGGLE",
                 "part_label":   pl,
                 "part_type":    sub[0]["part_type"],
+                "part_notes":   sub[0]["part_notes"],
+                "points":       _merge_points(sub),
                 "sub_segments": sub,
             })
         else:
