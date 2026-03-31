@@ -5,6 +5,12 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "streamlit>=1.40",
+    "pandas<3",
+]
+
+[dependency-groups]
+dev = [
     "ipykernel>=7.2.0",
     "librosa>=0.11.0",
     "matplotlib>=3.10.8",
@@ -12,11 +18,9 @@ dependencies = [
     "noisereduce>=3.0.3",
     "numpy>=2.3.5",
     "openai>=2.20.0",
-    "pandas<3",
     "pesto-pitch>=2.0.1",
     "seaborn>=0.13.2",
     "sounddevice>=0.5.5",
-    "streamlit>=1.40",
     "torchcodec>=0.10.0",
     "upsetplot>=0.9.0",
 ]

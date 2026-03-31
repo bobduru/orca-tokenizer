@@ -13,11 +13,6 @@ from components import render_call_card
 from ai_classification.ai_query import annotate_spectrogram
 
 # Page config
-st.set_page_config(
-    page_title="Call Query",
-    page_icon="🔍",
-    layout="wide"
-)
 
 # Load data
 @st.cache_data
@@ -72,7 +67,7 @@ if uploaded_file is not None:
         st.image(uploaded_file, caption="Uploaded Spectrogram", width=300)
     
     with col_ai:
-        if st.button("🤖 AI Thoughts", type="primary", use_container_width=True):
+        if st.button("🤖 AI Thoughts", type="primary", width="stretch"):
             with st.spinner("Analyzing spectrogram with AI..."):
                 tmp_path = None
                 try:

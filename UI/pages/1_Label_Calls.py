@@ -2,12 +2,6 @@ import streamlit as st
 import pandas as pd
 from pathlib import Path
 
-# Page config
-st.set_page_config(
-    page_title="Label Orca Calls",
-    page_icon="🏷️",
-    layout="wide"
-)
 
 # Load data
 @st.cache_data
@@ -59,7 +53,7 @@ with st.sidebar:
     for idx, cn in enumerate(call_names):
         checked = "✓" if parts_df.iloc[idx]['checked_v4'] else "○"
         label = f"{checked} {cn}"
-        if st.button(label, key=f"nav_{cn}", use_container_width=True, 
+        if st.button(label, key=f"nav_{cn}", width="stretch", 
                     type="primary" if cn == call_name else "secondary"):
             st.query_params['call_name'] = cn
             # Initialize carousel for new call if needed
@@ -80,7 +74,7 @@ with left_col:
     st.markdown("**Paper Spectrogram**")
     paper_spect = paper_spects_dir / f"{call_name}_paper_spect.png"
     if paper_spect.exists():
-        st.image(str(paper_spect), use_container_width=True)
+        st.image(str(paper_spect), width="stretch")
     else:
         st.warning("Not found")
     
@@ -103,7 +97,7 @@ with left_col:
         if spect_path.exists():
             clan_info = current_row.get('clan', 'N/A')
             pod_info = current_row.get('pod', 'N/A')
-            st.image(str(spect_path), use_container_width=True)
+            st.image(str(spect_path), width="stretch")
             st.caption(f"{current_online_idx + 1}/{len(online_rows)} | Clan: {clan_info} | Pod: {pod_info}")
             
             # Audio player
@@ -114,11 +108,11 @@ with left_col:
             if len(online_rows) > 1:
                 nav_cols = st.columns([1, 1])
                 with nav_cols[0]:
-                    if st.button("◀", use_container_width=True, key="prev_online"):
+                    if st.button("◀", width="stretch", key="prev_online"):
                         st.session_state.online_carousel[call_name] = (current_online_idx - 1) % len(online_rows)
                         st.rerun()
                 with nav_cols[1]:
-                    if st.button("▶", use_container_width=True, key="next_online"):
+                    if st.button("▶", width="stretch", key="next_online"):
                         st.session_state.online_carousel[call_name] = (current_online_idx + 1) % len(online_rows)
                         st.rerun()
     else:
@@ -238,17 +232,17 @@ def navigate_to_call(direction):
 nav_col1, nav_col2, nav_col3 = st.columns([1, 2, 1])
 
 with nav_col1:
-    if st.button("◀ Previous Call", use_container_width=True, type="secondary"):
+    if st.button("◀ Previous Call", width="stretch", type="secondary"):
         save_current()
         navigate_to_call('previous')
 
 with nav_col2:
-    if st.button("💾 Save", use_container_width=True, type="primary"):
+    if st.button("💾 Save", width="stretch", type="primary"):
         save_current()
         st.success(f"✓ Saved labels for {call_name}")
         st.rerun()
 
 with nav_col3:
-    if st.button("Next Call ▶", use_container_width=True, type="secondary"):
+    if st.button("Next Call ▶", width="stretch", type="secondary"):
         save_current()
         navigate_to_call('next')

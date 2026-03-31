@@ -1594,6 +1594,12 @@ name = "orca-calls"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
+    { name = "pandas" },
+    { name = "streamlit" },
+]
+
+[package.dev-dependencies]
+dev = [
     { name = "ipykernel" },
     { name = "librosa" },
     { name = "matplotlib" },
@@ -1601,17 +1607,21 @@ dependencies = [
     { name = "noisereduce" },
     { name = "numpy" },
     { name = "openai" },
-    { name = "pandas" },
     { name = "pesto-pitch" },
     { name = "seaborn" },
     { name = "sounddevice" },
-    { name = "streamlit" },
     { name = "torchcodec" },
     { name = "upsetplot" },
 ]
 
 [package.metadata]
 requires-dist = [
+    { name = "pandas", specifier = "<3" },
+    { name = "streamlit", specifier = ">=1.40" },
+]
+
+[package.metadata.requires-dev]
+dev = [
     { name = "ipykernel", specifier = ">=7.2.0" },
     { name = "librosa", specifier = ">=0.11.0" },
     { name = "matplotlib", specifier = ">=3.10.8" },
@@ -1619,11 +1629,9 @@ requires-dist = [
     { name = "noisereduce", specifier = ">=3.0.3" },
     { name = "numpy", specifier = ">=2.3.5" },
     { name = "openai", specifier = ">=2.20.0" },
-    { name = "pandas", specifier = "<3" },
     { name = "pesto-pitch", specifier = ">=2.0.1" },
     { name = "seaborn", specifier = ">=0.13.2" },
     { name = "sounddevice", specifier = ">=0.5.5" },
-    { name = "streamlit", specifier = ">=1.40" },
     { name = "torchcodec", specifier = ">=0.10.0" },
     { name = "upsetplot", specifier = ">=0.9.0" },
 ]

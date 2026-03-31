@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Git
+.git/
+.gitignore
+
+# Notebooks and local scripts
+*.ipynb
+maddie_code/
+annotation_audacity/
+annotations/
+
+# Data files not needed in the image
+data/parts_manual_labels_v*.csv
+data/ford-catalogue/audacity_*
+data/ford-catalogue/online_catalogue*.csv
+data/ford-catalogue/units_df.csv
+data/ford-catalogue/metadata.jsonl
+data/ford-catalogue/tokens/
+
+# Misc
+detection_metrics.txt
+.streamlit/secrets.toml

@@ -1,16 +1,26 @@
-to initialize : 
-uv sync
+# Orca Tokenizer
 
-to run UI : 
+## Setup
 
+```bash
+uv sync --group dev
+```
+
+## Running the UI
+
+**Dev** — all pages (Catalogue, Label Calls, Call Query):
+```bash
 uv run streamlit run UI/streamlit_app.py
+```
 
-create .env with 
+**Prod** — Catalogue page only:
+```bash
+APP_ENV=prod uv run streamlit run UI/streamlit_app.py
+```
 
-OPEN_API_KEY="key123"
+## Secrets
 
-and create .streamlit/secrets.toml
-
-with
-
-OPENAI_API_KEY = "key123"
+Create `.streamlit/secrets.toml` for the Call Query page (dev only):
+```toml
+OPENAI_API_KEY = "your-key"
+```

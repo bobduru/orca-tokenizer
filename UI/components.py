@@ -1,7 +1,25 @@
+from types import NoneType
 import streamlit as st
 import pandas as pd
 from pathlib import Path
 
+
+def get_paper_spect_path(call_type, paper_spects_dir):
+
+    filename = f"{call_type}_paper_spect.png"
+    message = None
+    if call_type == "N09ii" or call_type == "N09iii" or call_type == "N09i":
+        filename = "N09i_paper_spect.png"
+        message = "Ford only had a figure for all three variants of N09"
+    if call_type == "N11":
+        filename = "N11i_paper_spect.png"
+        message = "Ford had N11i and N11ii, but the online catalogue did not differentiate between them. Showing only N11i here."
+    if call_type == "N24i" or call_type == "N24ii":
+        filename = "N24_paper_spect.png"
+        message = "Ford only had N24, but the online catalogue has N24i and N24ii."
+    filepath = paper_spects_dir / filename
+    
+    return filepath, message
 
 def render_call_card(call_type, call_rows, paper_spects_dir, 
                     show_details=True, show_online=False, score=None, matched=None, card_idx=None):
@@ -32,7 +50,7 @@ def render_call_card(call_type, call_rows, paper_spects_dir,
     
     with st.container(border=True):
         # Display call name as clickable link
-        if st.button(f"**{call_type}**", key=f"nav_{key_suffix}", use_container_width=True):
+        if st.button(f"**{call_type}**", key=f"nav_{key_suffix}", width="stretch"):
             st.query_params['call_name'] = call_type
             st.switch_page("pages/1_Label_Calls.py")
         
@@ -49,11 +67,13 @@ def render_call_card(call_type, call_rows, paper_spects_dir,
         st.caption(f"Clan: {clans} | Pod: {pods}")
         
         # Display paper spectrogram
-        paper_spect = paper_spects_dir / f"{call_type}_paper_spect.png"
+        paper_spect, message = get_paper_spect_path(call_type, paper_spects_dir)
         if paper_spect.exists():
-            st.image(str(paper_spect), use_container_width=True)
+            if message:
+                st.warning(message)
+            st.image(str(paper_spect), width="stretch")
         else:
-            st.warning(f"Paper spect not found")
+            st.warning(f"Call type not in Ford 1989")
         
         # Show online examples if toggled
         if show_online and len(call_rows) > 0:
@@ -77,7 +97,7 @@ def render_call_card(call_type, call_rows, paper_spects_dir,
                 pod_info = current_row.get('pod', 'N/A')
                 annotated = current_row.get('Annotated', False)
                 annotated_badge = " ✅" if annotated else ""
-                st.image(str(spect_path), use_container_width=True, 
+                st.image(str(spect_path), width="stretch", 
                         caption=f"Example {current_online_idx+1} / {len(call_rows)} | Clan: {clan_info} | Pod: {pod_info}{annotated_badge}")
                 
                 # Audio player
@@ -88,11 +108,11 @@ def render_call_card(call_type, call_rows, paper_spects_dir,
                 if len(call_rows) > 1:
                     nav_cols = st.columns([1, 1])
                     with nav_cols[0]:
-                        if st.button("◀", key=f"prev_{key_suffix}", use_container_width=True):
+                        if st.button("◀", key=f"prev_{key_suffix}", width="stretch"):
                             st.session_state.current_online_idx[call_type] = (current_online_idx - 1) % len(call_rows)
                             st.rerun()
                     with nav_cols[1]:
-                        if st.button("▶", key=f"next_{key_suffix}", use_container_width=True):
+                        if st.button("▶", key=f"next_{key_suffix}", width="stretch"):
                             st.session_state.current_online_idx[call_type] = (current_online_idx + 1) % len(call_rows)
                             st.rerun()
             else:
